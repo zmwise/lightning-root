@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //@ServletComponentScan
 //@EnableConfigurationProperties({MemcachedProperties.class})
 @SpringBootApplication
-@MapperScan("com.osc.oscashapp.mapper")
+@MapperScan("com.osc.oscashdao.mapper")
 public class OscashAppApplication {
 	
 	private static final Logger LOGGER = LogManager.getLogger(OscashAppApplication.class);

@@ -5,6 +5,7 @@
 
 	<groupId>com.osc</groupId>
 	<artifactId>oscash-dao</artifactId>
+	<version>${oscash-dao.version}</version>
 	<packaging>jar</packaging>
 
 	<name>oscash-dao</name>
@@ -27,24 +28,56 @@
 		<pagehelper.version>4.1.6</pagehelper.version>
 		<mybatis.version>1.3.0</mybatis.version>
 		<druid.version>1.1.1</druid.version>
+		<fastjson.version>1.2.4</fastjson.version>
 	</properties>
 
 	<dependencies>
+		<!-- spring boot web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<!-- spring boot test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- mysql -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<!-- druid -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>${druid.version}</version>
+		</dependency>
+		<!--mybatis-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>
 		<!--mapper-->
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring-boot-starter</artifactId>
             <version>${mapper.version}</version>
         </dependency>
+	    <!--spring boot 配置处理器 属性参数加载 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<!-- fastjson -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+		    <artifactId>fastjson</artifactId>
+		    <version>${fastjson.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -84,7 +117,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
-	<version>${oscash-dao.version}</version>
 </project>

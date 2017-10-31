@@ -8,7 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.osc.oscashapp.mapper.user.bank.TUserBankMapper;
+import com.osc.oscashdao.mapper.user.bank.TUserBankMapper;
+
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

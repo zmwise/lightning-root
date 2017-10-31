@@ -54,6 +54,17 @@
 			<version>${oscash-utils.version}</version>
 		</dependency>
 		
+		<!-- spring boot web -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!-- spring boot test -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 		<!-- druid -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
@@ -85,17 +96,6 @@
             <version>${pagehelper.version}</version>
         </dependency>
 	
-		<!-- spring boot web -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<!-- spring boot test -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
 		<dependency> <!-- exclude掉spring-boot的默认log配置 -->  
 	        <groupId>org.springframework.boot</groupId>  
 	        <artifactId>spring-boot-starter</artifactId>  
