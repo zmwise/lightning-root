@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="D:\workspace_eclipse\oscash-app\target\classes/" overwrite="true">
+    <fileset dir="D:\workspace_eclipse\oscash-app/src/main/resources/test_config/"/>
+  </copy>
+  <delete includeemptydirs="true" dir="D:\workspace_eclipse\oscash-app\target\classes/test_config"/>
+  <delete includeemptydirs="true" dir="D:\workspace_eclipse\oscash-app\target\classes/prod_config"/>
+</target>
+</project>
