@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+  <!-- 引入配置文件 -->
+  <properties resource="generator/generatorConfig.properties"/>
+
+  <!--
+  	context:生成一组对象的环境
+  	MyBatis3Simple：类似MyBatis3，只是不生成XXXBySample
+   -->
+  <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+  	<!-- 生成的Java文件的编码 -->
+    <property name="javaFileEncoding" value="UTF-8"/>
+    <!-- beginningDelimiter和endingDelimiter：指明数据库的用于标记数据库对象名的符号，比如ORACLE就是双引号，MYSQL默认是`反引号； -->
+    <property name="beginningDelimiter" value="`"/>
+    <property name="endingDelimiter" value="`"/>
+    
+    <!--https://mapperhelper.github.io/docs/3.usembg/，自动生成代码的通用mapper插件-->
+    <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+      <property name="mappers" value="${mapper.BaseDao}"/>
+      <property name="caseSensitive" value="false"/>
+    </plugin>
+    
+    <plugin type="org.mybatis.generator.plugins.SerializablePlugin">
+      <property name="suppressJavaInterface" value="false"/>
+    </plugin>
+    
+    <!-- 注释 -->
+    <!-- <commentGenerator >
+        是否取消自动生成的注释
+        <property name="suppressAllComments" value="false"/>
+        是否生成注释代时间戳
+       <property name="suppressDate" value="true" />
+    </commentGenerator> -->
+    
+	<!-- 数据库连接配置 -->
+    <jdbcConnection driverClass="${jdbc.driver}" 
+    				connectionURL="${jdbc.url}" 
+    				userId="${jdbc.user}" 
+    				password="${jdbc.password}" />
+    
+    <!-- 类型转换 -->
+    <!-- <javaTypeResolver>
+        是否使用bigDecimal， false可自动转化以下类型（Long, Integer, Short, etc.）
+        <property name="forceBigDecimals" value="false" />
+    </javaTypeResolver> -->
+
+	<!-- 生成实体类地址 -->
+    <javaModelGenerator targetPackage="${package.entity}" targetProject="src/main/java"/>
+	<!-- 生成mapxml文件 -->
+    <sqlMapGenerator targetPackage="${package.mapperxml}"  targetProject="src/main/resources"/>
+	<!-- 生成mapxml对应client，也就是接口dao -->
+    <javaClientGenerator targetPackage="${package.dao}" targetProject="src/main/java" type="XMLMAPPER"/>
+    
+    <!-- 配置表信息 -->
+    <!-- schema即为数据库名 tableName为对应的数据库表 domainObjectName是要生成的实体类   -->
+
+    <!-- 【注意！！！】命名规范： -->
+    <!-- 数据库表名：采用“t_”前缀的全部单词小写、以下划线拼接。例如：t_operation_user -->
+    <!-- 生成的实体类：类名采用“T”开头、所有单词首字母大写并去除下划线；包名以去除“t_”前缀、所有下划线替换为点号“.”。 -->
+    <!--              例如：open.user.TOpenUser -->
+    <!-- 具体范例见下面注释代码： -->
+    
+	
+    <!-- <table schema="smd" tableName="t_open_user"
+		domainObjectName="open.user.TOpenUser" mapperName="user.bank.TOpenUserMapper">
+		<generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+	</table> -->
+    <table schema="smd" tableName="t_user_bank" domainObjectName="user.bank.TUserBank" 
+    mapperName="user.bank.TUserBankMapper" >
+		<generatedKey column="bank_id" sqlStatement="Mysql" identity="true"/>
+	</table>
+    <!-- <table schema="smd" tableName="t_promotion_register" domainObjectName="promotion.register.TPromotionRegister" 
+    mapperName="promotion.register.TPromotionRegisterMapper" >
+		<generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+	</table> -->
+	<!-- <table schema="smd" tableName="t_ll_pay_auth_fee" domainObjectName="ll.pay.auth_fee.TLlPayAuthFee" 
+    mapperName="ll.pay.auth_fee.TLlPayAuthFeeMapper" >
+		<generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+	</table> -->
+	
+  </context>
+</generatorConfiguration>
