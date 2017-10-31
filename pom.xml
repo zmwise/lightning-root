@@ -4,8 +4,27 @@
 
 	<groupId>com.osc</groupId>
 	<artifactId>oscash-root</artifactId>
-	<version>1.0</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.7</java.version>
+		
+		<oscash-app.version>1.0.0</oscash-app.version>
+		<oscash-common.version>1.0.0</oscash-common.version>
+		<oscash-dao.version>1.0.0</oscash-dao.version>
+		<oscash-pojo.version>1.0.0</oscash-pojo.version>
+		<oscash-utils.version>1.0.0</oscash-utils.version>
+		<oscash-service-approve.version>1.0.0</oscash-service-approve.version>
+		<oscash-service-loan.version>1.0.0</oscash-service-loan.version>
+		<oscash-service-sms.version>1.0.0</oscash-service-sms.version>
+		<oscash-service-timer.version>1.0.0</oscash-service-timer.version>
+		<oscash-service-tongdun.version>1.0.0</oscash-service-tongdun.version>
+		<oscash-service-user.version>1.0.0</oscash-service-user.version>
+		<oscash-service-zhima.version>1.0.0</oscash-service-zhima.version>
+	</properties>
 
 	<modules>
 		<!-- 基础 – 1秒现金APP篇  说明：提供1秒现金APP接口-->
