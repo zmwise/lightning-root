@@ -1,12 +1,1 @@
-com\osc\oscashapp\entity\user\bank\TUserBank.class
-com\osc\oscashapp\web\UserBankController.class
 META-INF\spring-configuration-metadata.json
-com\osc\oscashapp\config\datasource\DruidSource.class
-com\osc\oscashapp\Application.class
-com\osc\oscashapp\config\datasource\DruidConfig.class
-com\osc\oscashapp\service\user\bank\UserBankServiceImpl.class
-com\osc\oscashapp\properties\memcached\MemcachedProperties.class
-com\osc\oscashapp\web\HelloController.class
-com\osc\oscashapp\constant\status\StatusConstant.class
-com\osc\oscashapp\mapper\user\bank\TUserBankMapper.class
-com\osc\oscashapp\service\user\bank\UserBankService.class

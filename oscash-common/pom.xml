@@ -5,7 +5,7 @@
 
 	<groupId>com.osc</groupId>
 	<artifactId>oscash-common</artifactId>
-	<version>${oscash-common.version}</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>oscash-common</name>

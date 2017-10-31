@@ -5,7 +5,7 @@
 
 	<groupId>com.osc</groupId>
 	<artifactId>oscash-app</artifactId>
-	<version>${oscash-app.version}</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>oscash-app</name>
@@ -36,22 +36,22 @@
 		<dependency>
 			<groupId>com.osc</groupId>
 			<artifactId>oscash-dao</artifactId>
-			<version>${oscash-dao.version}</version>
+			<version>1.0.0</version>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.osc</groupId>
 			<artifactId>oscash-common</artifactId>
-			<version>${oscash-common.version}</version>
+			<version>1.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.osc</groupId>
 			<artifactId>oscash-pojo</artifactId>
-			<version>${oscash-pojo.version}</version>
-		</dependency>
+			<version>1.0.0</version>
+		</dependency> -->
 		<dependency>
 			<groupId>com.osc</groupId>
 			<artifactId>oscash-utils</artifactId>
-			<version>${oscash-utils.version}</version>
+			<version>1.0.0</version>
 		</dependency>
 		
 		<!-- spring boot web -->

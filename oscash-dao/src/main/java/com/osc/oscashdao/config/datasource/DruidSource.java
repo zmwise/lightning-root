@@ -36,9 +36,11 @@ public class DruidSource {
     private int timeBetweenEvictionRunsMillis;
 
     private int minEvictableIdleTimeMillis;
+    
     private String validationQuery;
 
     private boolean testWhileIdle;
+    
     private boolean testOnBorrow;
 
     private boolean testOnReturn;
@@ -50,7 +52,7 @@ public class DruidSource {
     private String filters;
 
     private String connectionProperties;
-
+    
     public String getDbUrl() {
         return dbUrl;
     }

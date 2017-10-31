@@ -5,7 +5,7 @@
 
 	<groupId>com.osc</groupId>
 	<artifactId>oscash-dao</artifactId>
-	<version>${oscash-dao.version}</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>oscash-dao</name>

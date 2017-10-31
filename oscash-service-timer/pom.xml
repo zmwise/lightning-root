@@ -46,5 +46,5 @@
 	</build>
 
 
-	<version>${oscash-service-timer.version}</version>
+	<version>1.0.0</version>
 </project>
