@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.fastjson.JSONObject;
-import com.osc.oscashapp.Application;
 import com.osc.oscashapp.entity.user.bank.TUserBank;
 import com.osc.oscashapp.properties.memcached.MemcachedProperties;
 import com.osc.oscashapp.service.user.bank.UserBankService;
@@ -17,7 +16,7 @@ import com.osc.oscashapp.service.user.bank.UserBankService;
 @RestController
 public class UserBankController {
 	
-	protected static Logger LOGGER = LoggerFactory.getLogger(Application.class);
+	protected static Logger LOGGER = LoggerFactory.getLogger(UserBankController.class);
 	
 	@Autowired
 	private UserBankService userBankService;

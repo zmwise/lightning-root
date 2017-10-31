@@ -25,7 +25,7 @@
 		<oscash-service-user.version>1.0.0</oscash-service-user.version>
 		<oscash-service-zhima.version>1.0.0</oscash-service-zhima.version>
 	</properties>
-
+	
 	<modules>
 		<!-- 基础 – 1秒现金APP篇  说明：提供1秒现金APP接口-->
 		<module>oscash-app</module>

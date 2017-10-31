@@ -19,7 +19,7 @@ public class OscashAppApplication {
 	
 	public static void main(String[] args) {
 		LOGGER.info("【一秒现金APP启动】程序启动中，请稍后...");
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(OscashAppApplication.class, args);
 		
 		
 		

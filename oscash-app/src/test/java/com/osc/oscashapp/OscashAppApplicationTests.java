@@ -14,7 +14,7 @@ import com.osc.oscashapp.mapper.user.bank.TUserBankMapper;
 @SpringBootTest
 public class OscashAppApplicationTests {
 	
-	private static final Logger LOGGER = LogManager.getLogger(ApplicationTests.class);
+	private static final Logger LOGGER = LogManager.getLogger(OscashAppApplicationTests.class);
 	
 	@Autowired
     private TUserBankMapper userBankMapper;

@@ -5,7 +5,7 @@
 
 	<groupId>com.osc</groupId>
 	<artifactId>oscash-pojo</artifactId>
-	<version>1.0.0</version>
+	<version>${oscash-pojo.version}</version>
 	<packaging>jar</packaging>
 
 	<name>oscash-pojo</name>
