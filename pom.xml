@@ -10,25 +10,29 @@
 	<modules>
 		<!-- 基础 – 1秒现金APP篇  说明：提供1秒现金APP接口-->
 		<module>oscash-app</module>
-		<!-- 基础 – 1秒现金工具篇   说明：提供公共工具支持-->
-		<module>oscash-utils</module>
-		<!-- 基础 – 1秒现POJO篇   说明：提供公共PO、VO、BO、DTO支持-->
-		<module>oscash-pojo</module>
+		
 		<!-- 基础 – 1秒现公共篇    说明：提供公共支持-->
 		<module>oscash-common</module>
 		<!-- 基础 – 1秒现金数据层篇     说明：提供数据层支持-->
 		<module>oscash-dao</module>
-		<!-- 基础 – 1秒现金同盾服务篇      说明：提供同盾相关服务-->
-		<module>oscash-service-tongdun</module>
-		<!-- 基础 – 1秒现金用户服务篇      说明：提供用户相关服务-->
-		<module>oscash-service-user</module>
-		<!-- 基础 – 1秒现金芝麻服务篇      说明：提供芝麻信用相关服务-->
-		<module>oscash-service-zhima</module>
-		<!-- 基础 – 1秒现审核服务篇      说明：提供审核相关服务-->
+		<!-- 基础 – 1秒现POJO篇   说明：提供公共PO、VO、BO、DTO支持-->
+		<module>oscash-pojo</module>
+		<!-- 基础 – 1秒现金工具篇   说明：提供公共工具支持-->
+		<module>oscash-utils</module>
+
+		<!-- 服务 – 1秒现审核服务篇      说明：提供审核相关服务-->
 		<module>oscash-service-approve</module>
-		<!-- 基础 – 1秒现借款服务篇      说明：提供借款相关服务-->
+		<!-- 服务 – 1秒现借款服务篇      说明：提供借款相关服务-->
 		<module>oscash-service-loan</module>
-		<!-- 基础 – 1秒现定时任务服务篇      说明：提供定时任务相关服务-->
+		<!-- 服务 – 1秒现借款服务篇      说明：提供短信相关服务-->
+		<module>oscash-service-sms</module>
+		<!-- 服务 – 1秒现定时任务服务篇      说明：提供定时任务相关服务-->
 		<module>oscash-service-timer</module>
+		<!-- 服务 – 1秒现金同盾服务篇      说明：提供同盾相关服务-->
+		<module>oscash-service-tongdun</module>
+		<!-- 服务 – 1秒现金用户服务篇      说明：提供用户相关服务-->
+		<module>oscash-service-user</module>
+		<!-- 服务 – 1秒现金芝麻服务篇      说明：提供芝麻信用相关服务-->
+		<module>oscash-service-zhima</module>
 	</modules>
 </project>
