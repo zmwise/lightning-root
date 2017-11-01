@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.fastjson.JSONObject;
 import com.osc.oscashapp.properties.memcached.MemcachedProperties;
-import com.osc.oscashapp.service.user.bank.UserBankService;
 import com.osc.oscashdao.entity.user.bank.TUserBank;
+import com.osc.oscashdao.mapper.user.bank.TUserBankMapper;
+import com.osc.oscashserviceuser.bank.IUserBankService;
 
 @RestController
 public class UserBankController {
@@ -19,13 +20,15 @@ public class UserBankController {
 	protected static Logger LOGGER = LoggerFactory.getLogger(UserBankController.class);
 	
 	@Autowired
-	private UserBankService userBankService;
+	private IUserBankService userBankService;
+	@Autowired
+	private TUserBankMapper userBankMapper;
 	@Autowired
 	private MemcachedProperties memcached;
 	
 	@GetMapping("/bank")
     public String getUserBank(String bankId) {
-		List<TUserBank> userBanks = userBankService.getAll();
+		List<TUserBank> userBanks = userBankService.selectAll();
 		System.out.println(JSONObject.toJSON(userBanks).toString());
 		LOGGER.info("memcached keyprefix="+memcached.getKeyprefix());
 		LOGGER.info("memcached servers="+memcached.getServers());

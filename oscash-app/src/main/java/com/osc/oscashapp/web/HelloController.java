@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 	
-	@GetMapping("/hello")
+	@GetMapping("/error")
     public String index() {
-        return "Hello World";
+        return "Hello World Error";
     }
 	
 }

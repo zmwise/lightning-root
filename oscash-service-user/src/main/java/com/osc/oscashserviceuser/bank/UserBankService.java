@@ -1,4 +1,4 @@
-package com.osc.oscashapp.service.user.bank;
+package com.osc.oscashserviceuser.bank;
 
 import java.util.List;
 
@@ -10,13 +10,13 @@ import com.osc.oscashdao.entity.user.bank.TUserBank;
 import com.osc.oscashdao.mapper.user.bank.TUserBankMapper;
 
 @Service
-public class UserBankServiceImpl implements UserBankService{
+public class UserBankService implements IUserBankService{
 	
 	@Autowired
 	private TUserBankMapper userBankMapper;
 
 	@Override
-	public List<TUserBank> getAll() {
+	public List<TUserBank> selectAll() {
 		PageHelper.startPage(1, 10);
 		return userBankMapper.selectAll();
 	}

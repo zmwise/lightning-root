@@ -3,19 +3,17 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.osc</groupId>
 	<artifactId>oscash-app</artifactId>
-	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>oscash-app</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.8.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>com.osc</groupId>
+		<artifactId>oscash-root</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<properties>
@@ -38,6 +36,11 @@
 			<artifactId>oscash-dao</artifactId>
 			<version>1.0.0</version>
 		</dependency>
+		<dependency>
+			<groupId>com.osc</groupId>
+			<artifactId>oscash-service-user</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 		<!-- <dependency>
 			<groupId>com.osc</groupId>
 			<artifactId>oscash-common</artifactId>
@@ -47,12 +50,12 @@
 			<groupId>com.osc</groupId>
 			<artifactId>oscash-pojo</artifactId>
 			<version>1.0.0</version>
-		</dependency> -->
+		</dependency>
 		<dependency>
 			<groupId>com.osc</groupId>
 			<artifactId>oscash-utils</artifactId>
 			<version>1.0.0</version>
-		</dependency>
+		</dependency> -->
 		
 		<!-- spring boot web -->
 		<dependency>
