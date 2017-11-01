@@ -14,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
 //@EnableConfigurationProperties({MemcachedProperties.class})
 @SpringBootApplication
 @MapperScan("com.osc.oscashdao.mapper")
-@ComponentScan("com.osc.oscashserviceuser")
+@ComponentScan(basePackages={"com.osc.oscashserviceuser","com.osc.oscashapp"})
 public class OscashAppApplication {
 	
 	private static final Logger LOGGER = LogManager.getLogger(OscashAppApplication.class);
