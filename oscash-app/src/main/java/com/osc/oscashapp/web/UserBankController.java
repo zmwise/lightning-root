@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.fastjson.JSONObject;
 import com.osc.oscashapp.properties.memcached.MemcachedProperties;
-import com.osc.oscashdao.entity.user.bank.TUserBank;
 import com.osc.oscashdao.mapper.user.bank.TUserBankMapper;
+import com.osc.oscashentity.user.bank.TUserBank;
 import com.osc.oscashserviceuser.bank.IUserBankService;
 
 @RestController

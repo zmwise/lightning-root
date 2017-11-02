@@ -45,6 +45,8 @@
 		
 		<!-- 基础 – 1秒现公共篇    说明：提供公共支持-->
 		<module>oscash-common</module>
+		<!-- 基础 – 1秒现金实体层篇     说明：提供实体层支持-->
+		<module>oscash-entity</module>
 		<!-- 基础 – 1秒现金数据层篇     说明：提供数据层支持-->
 		<module>oscash-dao</module>
 		<!-- 基础 – 1秒现POJO篇   说明：提供公共PO、VO、BO、DTO支持-->

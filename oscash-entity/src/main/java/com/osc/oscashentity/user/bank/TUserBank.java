@@ -1,4 +1,4 @@
-package com.osc.oscashdao.entity.user.bank;
+package com.osc.oscashentity.user.bank;
 
 import java.io.Serializable;
 import java.util.Date;

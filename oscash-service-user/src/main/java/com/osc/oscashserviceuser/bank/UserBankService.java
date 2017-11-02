@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.github.pagehelper.PageHelper;
-import com.osc.oscashdao.entity.user.bank.TUserBank;
 import com.osc.oscashdao.mapper.user.bank.TUserBankMapper;
+import com.osc.oscashentity.user.bank.TUserBank;
 
 @Service
 public class UserBankService implements IUserBankService{

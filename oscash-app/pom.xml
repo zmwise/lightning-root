@@ -33,6 +33,11 @@
 		<!-- 系统架构内依赖 -->
 		<dependency>
 			<groupId>com.osc</groupId>
+			<artifactId>oscash-entity</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.osc</groupId>
 			<artifactId>oscash-dao</artifactId>
 			<version>1.0.0</version>
 		</dependency>
