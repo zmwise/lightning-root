@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oscash-app" />
+        <module name="oscash-common" />
+        <module name="oscash-dao" />
+        <module name="oscash-entity" />
+        <module name="oscash-pojo" />
+        <module name="oscash-service-approve" />
+        <module name="oscash-service-loan" />
+        <module name="oscash-service-sms" />
+        <module name="oscash-service-timer" />
+        <module name="oscash-service-tongdun" />
+        <module name="oscash-service-user" />
+        <module name="oscash-service-zhima" />
+        <module name="oscash-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="oscash-app" target="1.7" />
+      <module name="oscash-common" target="1.7" />
+      <module name="oscash-dao" target="1.7" />
+      <module name="oscash-entity" target="1.7" />
+      <module name="oscash-pojo" target="1.7" />
+      <module name="oscash-root" target="1.7" />
+      <module name="oscash-service-approve" target="1.7" />
+      <module name="oscash-service-loan" target="1.7" />
+      <module name="oscash-service-sms" target="1.7" />
+      <module name="oscash-service-timer" target="1.7" />
+      <module name="oscash-service-tongdun" target="1.7" />
+      <module name="oscash-service-user" target="1.7" />
+      <module name="oscash-service-zhima" target="1.7" />
+      <module name="oscash-utils" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

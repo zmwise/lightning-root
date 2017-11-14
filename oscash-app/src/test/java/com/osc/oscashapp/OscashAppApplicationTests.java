@@ -4,11 +4,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import com.osc.oscashdao.mapper.user.bank.TUserBankMapper;
 
 
 @RunWith(SpringRunner.class)
@@ -17,9 +14,6 @@ public class OscashAppApplicationTests {
 	
 	private static final Logger LOGGER = LogManager.getLogger(OscashAppApplicationTests.class);
 	
-	@Autowired
-    private TUserBankMapper userBankMapper;
-
 	@Test
 	public void contextLoads() {
 		
@@ -30,6 +24,11 @@ public class OscashAppApplicationTests {
         LOGGER.warn("I am warn log.");  
         LOGGER.error("I am error log.");
         LOGGER.fatal("I am fatal log.");
+        Integer aa = new Integer(10);
+        Integer bb = new Integer(10);
+		if(aa==bb){
+			System.out.println(aa==bb);
+		}
 	}
 
 }

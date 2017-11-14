@@ -197,8 +197,13 @@ public class DruidSource {
         this.connectionProperties = connectionProperties;
     }
 
-    @Bean     //声明其为Bean实例
-    @Primary  //在同样的DataSource中，首先使用被标注的DataSource
+    /**
+     * 声明其为Bean实例
+     * 在同样的DataSource中，首先使用被标注的DataSource
+     * @return
+     */
+    @Bean
+    @Primary
     public DataSource dataSource()  {
         DruidDataSource datasource = new DruidDataSource();
 
@@ -231,9 +236,13 @@ public class DruidSource {
         return datasource;
     }
 
+    /**
+     * 配置事物管理
+     * @return
+     * @throws SQLException
+     */
     @Bean
     @Primary
-    //配置事物管理
     public DataSourceTransactionManager masterTransactionManager() throws SQLException {
         return new DataSourceTransactionManager(dataSource());
     }

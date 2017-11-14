@@ -10,25 +10,27 @@
 7. oscash-service-sms:短信相关服务
 8. oscash-service-timer:定时任务相关服务
 9. oscash-service-tongdun:同盾相关服务
-10.oscash-service-user:用户相关服务
-11.oscash-service-zhima:芝麻信用相关服务
-12.oscash-utils:公共工具支持
+10. oscash-service-user:用户相关服务
+11. oscash-service-zhima:芝麻信用相关服务
+12. oscash-utils:公共工具支持
 
 ## 技术集成
 - 最佳实践的项目结构、配置文件、精简的POM
 - 集成MyBatis、通用Mapper插件、PageHelper分页插件，实现单表业务零SQL
+- 采用高效稳定数据库连接池Druid
+- 集成Swagger2(RESTFUL接口的文档在线自动生成+功能测试功能软件)
 - 统一异常处理
 - 统一响应结果封装及生成工具
 - 常用基础方法抽象封装
 
 ## 快速开始
 1. 根据业务在基础代码上进行扩展
-2. 对开发环境配置文件
-	```application.properties```
-	```application-dev.properties```
-	```application-test.properties```
-	```application-prod.properties```
-         进行配置，启动项目！
+2. 对开发环境配置文件<br>
+	```application.properties```<br>
+	```application-dev.properties```<br>
+	```application-test.properties```<br>
+	```application-prod.properties```<br>
+    进行配置，启动项目！
 
 ## 开发建议
 - 表名，建议使用小写，多个单词使用下划线拼接

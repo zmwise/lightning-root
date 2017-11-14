@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-app/src/test/java/com/osc/oscashapp/OscashAppApplicationTests.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-service-approve" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-service-loan" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-service-sms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-service-timer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-service-tongdun" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-service-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-service-zhima" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oscash-utils" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

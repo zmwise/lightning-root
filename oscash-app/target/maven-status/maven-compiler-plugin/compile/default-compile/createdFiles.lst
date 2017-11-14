@@ -1,0 +1,6 @@
+com\osc\oscashapp\OscashAppApplication.class
+com\osc\oscashapp\properties\memcached\MemcachedProperties.class
+com\osc\oscashapp\web\HelloController.class
+com\osc\oscashapp\web\UserBankController.class
+com\osc\oscashapp\constant\status\StatusConstant.class
+META-INF\spring-configuration-metadata.json

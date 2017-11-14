@@ -1,0 +1,52 @@
+{
+  "hints": [],
+  "properties": [
+    {
+      "sourceType": "com.osc.oscashapp.properties.memcached.MemcachedProperties",
+      "name": "org.mybatis.caches.memcached.asyncget",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.osc.oscashapp.properties.memcached.MemcachedProperties",
+      "name": "org.mybatis.caches.memcached.compression",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.osc.oscashapp.properties.memcached.MemcachedProperties",
+      "name": "org.mybatis.caches.memcached.connectionfactory",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.osc.oscashapp.properties.memcached.MemcachedProperties",
+      "name": "org.mybatis.caches.memcached.expiration",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.osc.oscashapp.properties.memcached.MemcachedProperties",
+      "name": "org.mybatis.caches.memcached.keyprefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.osc.oscashapp.properties.memcached.MemcachedProperties",
+      "name": "org.mybatis.caches.memcached.servers",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.osc.oscashapp.properties.memcached.MemcachedProperties",
+      "name": "org.mybatis.caches.memcached.timeout",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.osc.oscashapp.properties.memcached.MemcachedProperties",
+      "name": "org.mybatis.caches.memcached.timeoutunit",
+      "type": "java.lang.String"
+    }
+  ],
+  "groups": [
+    {
+      "sourceType": "com.osc.oscashapp.properties.memcached.MemcachedProperties",
+      "name": "org.mybatis.caches.memcached",
+      "type": "com.osc.oscashapp.properties.memcached.MemcachedProperties"
+    }
+  ]
+}

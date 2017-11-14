@@ -12,6 +12,11 @@ import org.springframework.context.annotation.ComponentScan;
 //@EnableAutoConfiguration
 //@ServletComponentScan
 //@EnableConfigurationProperties({MemcachedProperties.class})
+/**
+ * @Description: OscashAppApplication
+ * @Author: lizhiming
+ * @Since: 2017/11/10
+ */
 @SpringBootApplication
 @MapperScan("com.osc.oscashdao.mapper")
 @ComponentScan(basePackages={"com.osc.oscashserviceuser","com.osc.oscashapp"})
