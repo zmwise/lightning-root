@@ -49,7 +49,7 @@
     </javaTypeResolver> -->
 
 	<!-- 生成实体类地址 -->
-    <javaModelGenerator targetPackage="${package.entity}" targetProject="D:\workspace_eclipse\oscash-root\oscash-entity\src\main\java"/>
+    <javaModelGenerator targetPackage="${package.entity}" targetProject="D:\workspace_idea\oscash-root\oscash-entity\src\main\java"/>
 	<!-- 生成mapxml文件 -->
     <sqlMapGenerator targetPackage="${package.mapperxml}"  targetProject="src/main/resources"/>
 	<!-- 生成mapxml对应client，也就是接口dao -->
@@ -69,10 +69,10 @@
 		domainObjectName="open.user.TOpenUser" mapperName="user.bank.TOpenUserMapper">
 		<generatedKey column="id" sqlStatement="Mysql" identity="true"/>
 	</table> -->
-    <table schema="smd" tableName="t_user_bank" domainObjectName="user.bank.TUserBank" 
+    <!--<table schema="smd" tableName="t_user_bank" domainObjectName="user.bank.TUserBank"
     mapperName="user.bank.TUserBankMapper" >
 		<generatedKey column="bank_id" sqlStatement="Mysql" identity="true"/>
-	</table>
+	</table>-->
     <!-- <table schema="smd" tableName="t_promotion_register" domainObjectName="promotion.register.TPromotionRegister" 
     mapperName="promotion.register.TPromotionRegisterMapper" >
 		<generatedKey column="id" sqlStatement="Mysql" identity="true"/>
@@ -81,6 +81,9 @@
     mapperName="ll.pay.auth_fee.TLlPayAuthFeeMapper" >
 		<generatedKey column="id" sqlStatement="Mysql" identity="true"/>
 	</table> -->
-	
+      <table schema="smd" tableName="t_user" domainObjectName="user.TUser"
+             mapperName="user.TUserMapper" >
+          <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
+      </table>
   </context>
 </generatorConfiguration>

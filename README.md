@@ -25,11 +25,11 @@
 
 ## 快速开始
 1. 根据业务在基础代码上进行扩展
-2. 对开发环境配置文件<br>
-	```application.properties```<br>
-	```application-dev.properties```<br>
-	```application-test.properties```<br>
-	```application-prod.properties```<br>
+2. 对开发环境配置文件,采用可读性、简洁性更好的yaml配置<br>
+	```application.yml```<br>
+	```application-dev.yml```<br>
+	```application-test.yml```<br>
+	```application-prod.yml```<br>
     进行配置，启动项目！
 
 ## 开发建议
