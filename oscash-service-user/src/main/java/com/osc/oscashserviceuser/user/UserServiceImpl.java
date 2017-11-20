@@ -1,35 +1,36 @@
 package com.osc.oscashserviceuser.user;
 
-import com.github.pagehelper.PageHelper;
-import com.osc.oscashdao.mapper.user.TUserMapper;
-import com.osc.oscashentity.user.TUser;
+import com.baomidou.mybatisplus.plugins.pagination.PageHelper;
+import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.osc.oscashdao.mapper.user.UserDao;
+import com.osc.oscashentity.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-
 /**
- * @description: 用户Service实现类
- * @author: lizhiming
- * @since: 2017/11/10
+ * <p>
+ *  服务实现类
+ * </p>
+ *
+ * @author lizhiming
+ * @since 2017-11-17
  */
 @Service
-public class UserServiceImpl implements UserService {
-	
-	@Autowired
-	private TUserMapper userMapper;
+public class UserServiceImpl extends ServiceImpl<UserDao, User> implements IUserService {
 
-	@Override
-	public int saveUser(TUser user) {
-		return userMapper.insert(user);
-	}
+    @Autowired
+    private UserDao userDao;
 
-	@Override
-	public List<TUser> getAllUser() {
-		PageHelper.startPage(1, 10);
-		return userMapper.selectAll();
-	}
+    @Override
+    public int saveUser(User user) {
+        return userDao.insert(user);
+    }
 
-
+    @Override
+    public List<User> getAllUser() {
+        PageHelper.startPage(1, 10);
+        return userDao.selectList(null);
+    }
 }

@@ -5,11 +5,11 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 /**
- * @Description: prefix="org.mybatis.caches.memcached"
+ * @description: prefix="org.mybatis.caches.memcached"
  * 				在application.properties配置的属性前缀
  * 				在类中的属性就不用使用{@value}进行注入了
- * @Author: lizhiming
- * @Since: 2017/11/10
+ * @author: lizhiming
+ * @since: 2017/11/10
  */
 @Component
 @ConfigurationProperties(prefix="org.mybatis.caches.memcached")

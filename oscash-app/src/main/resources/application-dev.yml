@@ -4,7 +4,7 @@
 
 ###################  项目启动端口  ###################server:server:
 server:
-  port: 8080
+  port: 8090
   context-path: /
 
 
@@ -41,11 +41,20 @@ spring:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
 
-#mybatis config
-mybatis:
-  type-aliases-package: com.osc.oscashdao.entity
-  mapper-locations: classpath:mybatis/**/*.xml
-  config-location: classpath:mybatis-config.xml
+#mybatis plus config
+mybatis-plus:
+  type-aliases-package: com.osc.oscashentity
+  mapper-locations: classpath*:mybatis/**/*.xml
+  configuration:
+    cache-enabled: true #配置的缓存的全局开关
+    lazy-loading-enabled: true #延时加载的开关
+    multiple-result-sets-enabled: true #开启的话，延时加载一个属性时会加载该对象全部属性，否则按需加载属性
+    use-column-label: true #使用列标签代替列名。不同的驱动在这方便表现不同。参考驱动文档或充分测试两种方法来决定所使用的驱动。 系统默认值是true，设置只是为了展示出来
+    use-generated-keys: false #允许 JDBC 支持生成的键。需要适合的驱动。如果设置为 true 则这个设置强制生成的键被使用，尽管一些驱动拒绝兼容但仍然有效（比如Derby）。 系统默认值是false，设置只是为了展示出来
+    default-executor-type: simple #配置默认的执行器。SIMPLE 执行器没有什么特别之处。REUSE 执行器重用预处理语句。BATCH 执行器重用语句和批量更新 系统默认值是SIMPLE，设置只是为了展示出来
+    default-statement-timeout: 25000 #设置超时时间，它决定驱动等待一个数据库响应的时间。 系统默认值是null，设置只是为了展示出来
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印查询语句 注释SQL打印进日志 放开SQL打印到控制台
+
 
 #common mapper config
 mapper:
@@ -61,7 +70,5 @@ pagehelper:
   params: count=countSql
   dialect: com.github.pagehelper.dialect.helper.MySqlDialect
   row-bounds-with-count: true
-
-
 
 

@@ -2,14 +2,17 @@ package com.osc.oscashapp.web.user;
 
 import com.alibaba.fastjson.JSONObject;
 import com.osc.oscashapp.properties.memcached.MemcachedProperties;
-import com.osc.oscashentity.user.TUser;
-import com.osc.oscashserviceuser.user.UserService;
+import com.osc.oscashentity.user.User;
+import com.osc.oscashserviceuser.user.IUserService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -25,14 +28,14 @@ public class UseController {
 	protected static Logger LOGGER = LoggerFactory.getLogger(UseController.class);
 	
 	@Autowired
-	private UserService userService;
+	private IUserService userService;
 	@Autowired
 	private MemcachedProperties memcached;
 
 	@ApiOperation(value = "保存用户",notes = "保存用户")
 	@ApiImplicitParam(name = "TUser",value = "用户对象")
 	@PostMapping("/saveUser")
-    public String saveUser(TUser user) {
+    public String saveUser(User user) {
 
 		userService.saveUser(user);
 
@@ -45,7 +48,7 @@ public class UseController {
 	@GetMapping("/getAllUser")
 	public String getAllUser() {
 
-		List<TUser> users = userService.getAllUser();
+		List<User> users = userService.getAllUser();
 
 		System.out.println(JSONObject.toJSON(users).toString());
 		LOGGER.info("memcached keyprefix="+memcached.getKeyprefix());

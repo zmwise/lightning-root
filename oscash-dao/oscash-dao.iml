@@ -17,6 +17,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="oscash-entity" />
+    <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.jsqlparser:jsqlparser:1.1" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.1" level="project" />
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:jconsole:1.8.0">

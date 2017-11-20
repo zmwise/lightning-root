@@ -1,7 +1,7 @@
 package com.osc.oscashdao;
 
-import com.osc.oscashdao.mapper.user.TUserMapper;
-import com.osc.oscashentity.user.TUser;
+import com.osc.oscashdao.mapper.user.UserDao;
+import com.osc.oscashentity.user.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,11 +15,11 @@ import java.util.List;
 public class OscashDaoApplicationTests {
 
 	@Autowired
-    private TUserMapper userMapper;
+    private UserDao userDao;
 
 	@Test
 	public void contextLoads() {
-		List<TUser> users = userMapper.selectAll();
+		List<User> users = userDao.selectList(null);
 		System.out.println(users.size());
 	}
 
