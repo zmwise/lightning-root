@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/oscash-app/oscash-app.iml" filepath="$PROJECT_DIR$/oscash-app/oscash-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/oscash-common/oscash-common.iml" filepath="$PROJECT_DIR$/oscash-common/oscash-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/oscash-dao/oscash-dao.iml" filepath="$PROJECT_DIR$/oscash-dao/oscash-dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oscash-entity/oscash-entity.iml" filepath="$PROJECT_DIR$/oscash-entity/oscash-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/oscash-pojo/oscash-pojo.iml" filepath="$PROJECT_DIR$/oscash-pojo/oscash-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/oscash-root.iml" filepath="$PROJECT_DIR$/oscash-root.iml" />
       <module fileurl="file://$PROJECT_DIR$/oscash-service-approve/oscash-service-approve.iml" filepath="$PROJECT_DIR$/oscash-service-approve/oscash-service-approve.iml" />

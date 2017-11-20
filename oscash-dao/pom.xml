@@ -18,18 +18,15 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.7</java.version>
-		
-		<pagehelper.version>1.1.0</pagehelper.version>
+
 		<druid.version>1.1.1</druid.version>
+		<mybatis-plus.version>2.1.0</mybatis-plus.version>
+		<mybatisplus-spring-boot-starter.version>1.0.4</mybatisplus-spring-boot-starter.version>
+		<velocity.version>2.0</velocity.version>
 	</properties>
 	
 	<dependencies>
 		<!-- 系统架构内依赖 -->
-		<dependency>
-			<groupId>com.osc</groupId>
-			<artifactId>oscash-entity</artifactId>
-			<version>1.0.0</version>
-		</dependency>
 
 		<!-- druid -->
 		<dependency>
@@ -37,43 +34,21 @@
 			<artifactId>druid</artifactId>
 			<version>${druid.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus</artifactId>
+			<version>${mybatis-plus.version}</version>
+		</dependency>
+		<!-- 模板引擎 -->
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity-engine-core</artifactId>
+			<version>${velocity.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatisplus-spring-boot-starter</artifactId>
+			<version>${mybatisplus-spring-boot-starter.version}</version>
+		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<!--mybatis自动生成代码插件-->
-			<plugin>
-				<groupId>org.mybatis.generator</groupId>
-				<artifactId>mybatis-generator-maven-plugin</artifactId>
-				<version>1.3.5</version>
-				<configuration>
-					<!-- 自动生成的配置,${basedir}表示项目根目录 ,configurationFile默认在resource目录下-->
-					<configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>
-					<!-- 是否覆盖 -->
-					<overwrite>true</overwrite>
-					<!--允许移动生成的文件 -->
-					<verbose>true</verbose>
-				</configuration>
-				<dependencies>
-					<!--mysql驱动包-->
-					<dependency>
-						<groupId>mysql</groupId>
-						<artifactId>mysql-connector-java</artifactId>
-						<version>${mysql.version}</version>
-						<scope>runtime</scope>
-					</dependency>
-					<!--集成通用mapper依赖-->
-					<dependency>
-			            <groupId>tk.mybatis</groupId>
-			            <artifactId>mapper-spring-boot-starter</artifactId>
-			            <version>${mapper.version}</version>
-			        </dependency>
-				</dependencies>
-			</plugin>
-		</plugins>
-	</build>
 </project>

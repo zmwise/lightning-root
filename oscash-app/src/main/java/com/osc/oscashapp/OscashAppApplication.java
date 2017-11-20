@@ -18,7 +18,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @Since: 2017/11/10
  */
 @SpringBootApplication
-@MapperScan("com.osc.oscashdao.mapper")
+@MapperScan("com.osc.oscashdao.dao")
 @ComponentScan(basePackages={"com.osc.oscashserviceuser","com.osc.oscashapp"})
 //@ServletComponentScan
 public class OscashAppApplication {

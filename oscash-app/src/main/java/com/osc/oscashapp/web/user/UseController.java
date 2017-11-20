@@ -2,7 +2,7 @@ package com.osc.oscashapp.web.user;
 
 import com.alibaba.fastjson.JSONObject;
 import com.osc.oscashapp.properties.memcached.MemcachedProperties;
-import com.osc.oscashentity.user.User;
+import com.osc.oscashdao.entity.user.User;
 import com.osc.oscashserviceuser.user.IUserService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

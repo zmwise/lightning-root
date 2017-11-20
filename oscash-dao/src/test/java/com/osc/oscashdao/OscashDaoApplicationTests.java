@@ -1,7 +1,7 @@
 package com.osc.oscashdao;
 
-import com.osc.oscashdao.mapper.user.UserDao;
-import com.osc.oscashentity.user.User;
+import com.osc.oscashdao.dao.user.UserDao;
+import com.osc.oscashdao.entity.user.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

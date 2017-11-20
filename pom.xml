@@ -32,8 +32,6 @@
 		<oscash-service-zhima.version>1.0.0</oscash-service-zhima.version> -->
 		
 		<mysql.version>5.1.42</mysql.version>
-		<mapper.version>1.1.0</mapper.version>
-		<pagehelper.version>1.1.0</pagehelper.version>
 		<mybatis.version>1.3.0</mybatis.version>
 		<fastjson.version>1.2.4</fastjson.version>
 	</properties>
@@ -44,9 +42,7 @@
 		
 		<!-- 基础 – 1秒现公共篇    说明：提供公共支持-->
 		<module>oscash-common</module>
-		<!-- 基础 – 1秒现金实体层篇     说明：提供实体层支持-->
-		<module>oscash-entity</module>
-		<!-- 基础 – 1秒现金数据层篇     说明：提供数据层支持-->
+		<!-- 基础 – 1秒现金数据层篇     说明：提供实体层、数据层支持-->
 		<module>oscash-dao</module>
 		<!-- 基础 – 1秒现POJO篇   说明：提供公共PO、VO、BO、DTO支持-->
 		<module>oscash-pojo</module>
@@ -96,12 +92,6 @@
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>${mybatis.version}</version>
-        </dependency>
-        <!--mapper-->
-        <dependency>
-            <groupId>tk.mybatis</groupId>
-            <artifactId>mapper-spring-boot-starter</artifactId>
-            <version>${mapper.version}</version>
         </dependency>
 		<!-- fastjson -->
 		<dependency>

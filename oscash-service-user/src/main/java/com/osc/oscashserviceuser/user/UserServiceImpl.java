@@ -2,8 +2,8 @@ package com.osc.oscashserviceuser.user;
 
 import com.baomidou.mybatisplus.plugins.pagination.PageHelper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import com.osc.oscashdao.mapper.user.UserDao;
-import com.osc.oscashentity.user.User;
+import com.osc.oscashdao.dao.user.UserDao;
+import com.osc.oscashdao.entity.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
