@@ -2,15 +2,15 @@ package generator;
 
 import com.baomidou.mybatisplus.generator.AutoGenerator;
 import com.baomidou.mybatisplus.generator.InjectionConfig;
-import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
-import com.baomidou.mybatisplus.generator.config.GlobalConfig;
-import com.baomidou.mybatisplus.generator.config.PackageConfig;
-import com.baomidou.mybatisplus.generator.config.StrategyConfig;
+import com.baomidou.mybatisplus.generator.config.*;
 import com.baomidou.mybatisplus.generator.config.converts.MySqlTypeConvert;
 import com.baomidou.mybatisplus.generator.config.rules.DbColumnType;
 import com.baomidou.mybatisplus.generator.config.rules.DbType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -23,12 +23,31 @@ import java.util.Map;
  */
 public class Generator {
 
+    protected static Logger LOGGER = LoggerFactory.getLogger(Generator.class);
+
+    private static final String TAB_PREFIX = "t_";
+
+    private static final String UNDER_LINE = "_";
+
     public static void main(String[] args) {
+        String[] models = {"oscash-dao"};
+        for (String model : models) {
+            /**
+             * tabName 更改此参数为生成代码的表名称
+             */
+            shell(model, "t_user_bank");
+        }
+    }
+
+    private static void shell(String model,String tabName){
+        File file = new File(model);
+        String path = file.getAbsolutePath();
+        System.out.println("代码生成目录:"+path);
 
         AutoGenerator mpg = new AutoGenerator();
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        gc.setOutputDir("D://Generator//");//这里写你自己的java目录
+        gc.setOutputDir(path);//这里写你自己的java目录D://Generator//
         gc.setFileOverride(true);//是否覆盖
         gc.setActiveRecord(true);
         gc.setEnableCache(false);// XML 二级缓存
@@ -38,9 +57,6 @@ public class Generator {
         // 自定义文件命名，注意 %s 会自动填充表实体属性！
         gc.setMapperName("%sDao");
         gc.setXmlName("%sMapper");
-        gc.setServiceName("I%sService");
-        gc.setServiceImplName("%sServiceImpl");
-        //gc.setControllerName("%sController");
         mpg.setGlobalConfig(gc);
 
         // 数据源配置
@@ -50,7 +66,6 @@ public class Generator {
             // 自定义数据库表字段类型转换【可选】
             @Override
             public DbColumnType processTypeConvert(String fieldType) {
-                System.out.println("转换类型：" + fieldType);
                 // 注意！！processTypeConvert 存在默认类型转换，如果不是你要的效果请自定义返回、非如下直接返回。
                 return super.processTypeConvert(fieldType);
             }
@@ -63,41 +78,21 @@ public class Generator {
 
         // 策略配置
         StrategyConfig strategy = new StrategyConfig();
-        strategy.setCapitalMode(false);// 全局大写命名 ORACLE 注意
         strategy.setTablePrefix(new String[] { "t_" });// 此处可以修改为您的表前缀
         strategy.setNaming(NamingStrategy.underline_to_camel);// 表名生成策略
-        /**
-         * 此处
-         */
-        strategy.setInclude(new String[] { "t_user_bank" }); // 需要生成的表
-        strategy.setExclude(new String[]{}); // 排除生成的表
-        // 自定义实体父类
-        strategy.setSuperEntityClass(null);
-        // 自定义实体，公共字段
-        strategy.setSuperEntityColumns(null);
-        // 自定义 mapper 父类
-        strategy.setSuperMapperClass("com.baomidou.mybatisplus.mapper.BaseMapper");
-        // 自定义 service 父类
-        strategy.setSuperServiceClass("com.baomidou.mybatisplus.service.IService");
-        // 自定义 service 实现类父类
-        strategy.setSuperServiceImplClass("com.baomidou.mybatisplus.service.impl.ServiceImpl");
-        // 自定义 controller 父类
-        strategy.setSuperControllerClass(null);
-        // 【实体】是否生成字段常量（默认 false）
-        strategy.setEntityColumnConstant(false);
-        // 【实体】是否为构建者模型（默认 false）
-        strategy.setEntityBuilderModel(false);
+        strategy.setInclude(new String[] { tabName }); // 需要生成的表
         mpg.setStrategy(strategy);
 
         // 包配置
         PackageConfig pc = new PackageConfig();
-        pc.setParent(null);
-        pc.setEntity("com.osc.oscashdao.entity.user.bank");
-        pc.setMapper("com.osc.oscashdao.dao.user.bank");
-        pc.setXml("mapperXml");
-        pc.setService("service");       //本项目没用，生成之后删掉
+        String tabPackage = getName(tabName,UNDER_LINE);
+        pc.setParent("src.main");
+        pc.setEntity("java.com.osc.oscashdao.entity"+tabPackage);
+        pc.setMapper("java.com.osc.oscashdao.dao"+getName(tabName,UNDER_LINE));
+        pc.setXml("resources.mybatis"+getName(tabName,UNDER_LINE));
+        pc.setService("java.com.osc.oscashdao.service"+getName(tabName,UNDER_LINE));       //本项目没用，生成之后删掉
         pc.setServiceImpl("serviceImpl");   //本项目没用，生成之后删掉
-        //pc.setController("web");    //本项目没用，生成之后删掉
+        pc.setController("web");    //本项目没用，生成之后删掉
         mpg.setPackageInfo(pc);
 
         // 注入自定义配置，可以在 VM 中使用 cfg.abc 设置的值
@@ -116,5 +111,18 @@ public class Generator {
 
         // 打印注入设置
         System.err.println(mpg.getCfg().getMap().get("abc"));
+    }
+
+    /**
+     * 根据表名返回包名（包分类）
+     * @param tabName 原名
+     * @return 返回生成后的包路径名
+     *  例如：t_user_bank 返回 .user.bank
+     */
+    public static String getName(String tabName, String reChar) {
+        if(tabName.contains(TAB_PREFIX)){
+            tabName = "." + tabName.substring(2).replaceAll(reChar,".");
+        }
+        return tabName;
     }
 }

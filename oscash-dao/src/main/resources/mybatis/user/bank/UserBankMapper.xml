@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="src.main.java.com.osc.oscashdao.dao.user.bank.UserBankDao">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="src.main.java.com.osc.oscashdao.entity.user.bank.UserBank">
+		<id column="bank_id" property="bankId" />
+		<result column="user_id" property="userId" />
+		<result column="bank_card_type" property="bankCardType" />
+		<result column="card_holder_name" property="cardHolderName" />
+		<result column="id_card_no" property="idCardNo" />
+		<result column="bank_card_no" property="bankCardNo" />
+		<result column="reserved_phone_number" property="reservedPhoneNumber" />
+		<result column="gender" property="gender" />
+		<result column="birthday" property="birthday" />
+		<result column="bank_state" property="bankState" />
+		<result column="created_date" property="createdDate" />
+		<result column="bank_name" property="bankName" />
+		<result column="bank_code" property="bankCode" />
+		<result column="card_type" property="cardType" />
+	</resultMap>
+
+</mapper>

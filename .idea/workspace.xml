@@ -5,67 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e83960ee-ad30-4bae-9012-1813630a403f" name="Default" comment="&lt;mybatis-plus.version&gt;2.1.0&lt;/mybatis-plus.version&gt;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_osc_oscash_entity_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/entity/user/User.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_1_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/generator/Generator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/generator/Generator$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/generator/Generator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/mapper/user/UserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/com/osc/oscashdao/mapper/user/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/oscash-entity.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/src/main/java/com/osc/oscashentity/OscashEntityApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/src/main/java/com/osc/oscashentity/user/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/src/test/java/com/osc/oscashentity/OscashEntityApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/target/classes/com/osc/oscashentity/OscashEntityApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/target/classes/com/osc/oscashentity/user/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/target/oscash-entity-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-entity/target/test-classes/com/osc/oscashentity/OscashEntityApplicationTests.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/OscashAppApplication.class" afterPath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/OscashAppApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/web/user/UseController.class" afterPath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/web/user/UseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/com/osc/oscashdao/OscashDaoApplication.class" afterPath="$PROJECT_DIR$/oscash-dao/target/classes/com/osc/oscashdao/OscashDaoApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/target/test-classes/com/osc/oscashdao/OscashDaoApplicationTests.class" afterPath="$PROJECT_DIR$/oscash-dao/target/test-classes/com/osc/oscashdao/OscashDaoApplicationTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-user/target/classes/com/osc/oscashserviceuser/user/IUserService.class" afterPath="$PROJECT_DIR$/oscash-service-user/target/classes/com/osc/oscashserviceuser/user/IUserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-user/target/classes/com/osc/oscashserviceuser/user/UserServiceImpl.class" afterPath="$PROJECT_DIR$/oscash-service-user/target/classes/com/osc/oscashserviceuser/user/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/generator/Generator$1.class" afterPath="$PROJECT_DIR$/oscash-dao/target/classes/generator/Generator$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/generator/Generator$2.class" afterPath="$PROJECT_DIR$/oscash-dao/target/classes/generator/Generator$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/generator/Generator.class" afterPath="$PROJECT_DIR$/oscash-dao/target/classes/generator/Generator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/oscash-app.iml" afterPath="$PROJECT_DIR$/oscash-app/oscash-app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/pom.xml" afterPath="$PROJECT_DIR$/oscash-app/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/OscashAppApplication.java" afterPath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/OscashAppApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UseController.java" afterPath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UseController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-common/oscash-common.iml" afterPath="$PROJECT_DIR$/oscash-common/oscash-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/oscash-dao.iml" afterPath="$PROJECT_DIR$/oscash-dao/oscash-dao.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/pom.xml" afterPath="$PROJECT_DIR$/oscash-dao/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/OscashDaoApplication.java" afterPath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/OscashDaoApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/src/main/resources/mybatis/user/UserMapper.xml" afterPath="$PROJECT_DIR$/oscash-dao/src/main/resources/mybatis/user/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/src/test/java/com/osc/oscashdao/OscashDaoApplicationTests.java" afterPath="$PROJECT_DIR$/oscash-dao/src/test/java/com/osc/oscashdao/OscashDaoApplicationTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/mybatis/user/UserMapper.xml" afterPath="$PROJECT_DIR$/oscash-dao/target/classes/mybatis/user/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-pojo/oscash-pojo.iml" afterPath="$PROJECT_DIR$/oscash-pojo/oscash-pojo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-root.iml" afterPath="$PROJECT_DIR$/oscash-root.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-approve/oscash-service-approve.iml" afterPath="$PROJECT_DIR$/oscash-service-approve/oscash-service-approve.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-loan/oscash-service-loan.iml" afterPath="$PROJECT_DIR$/oscash-service-loan/oscash-service-loan.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-sms/oscash-service-sms.iml" afterPath="$PROJECT_DIR$/oscash-service-sms/oscash-service-sms.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-timer/oscash-service-timer.iml" afterPath="$PROJECT_DIR$/oscash-service-timer/oscash-service-timer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-tongdun/oscash-service-tongdun.iml" afterPath="$PROJECT_DIR$/oscash-service-tongdun/oscash-service-tongdun.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-user/oscash-service-user.iml" afterPath="$PROJECT_DIR$/oscash-service-user/oscash-service-user.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-user/src/main/java/com/osc/oscashserviceuser/user/IUserService.java" afterPath="$PROJECT_DIR$/oscash-service-user/src/main/java/com/osc/oscashserviceuser/user/IUserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-user/src/main/java/com/osc/oscashserviceuser/user/UserServiceImpl.java" afterPath="$PROJECT_DIR$/oscash-service-user/src/main/java/com/osc/oscashserviceuser/user/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-zhima/oscash-service-zhima.iml" afterPath="$PROJECT_DIR$/oscash-service-zhima/oscash-service-zhima.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-utils/oscash-utils.iml" afterPath="$PROJECT_DIR$/oscash-utils/oscash-utils.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/generator/Generator.java" afterPath="$PROJECT_DIR$/oscash-dao/src/main/java/generator/Generator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/generator/Generator.java" afterPath="$PROJECT_DIR$/oscash-dao/src/main/java/generator/Generator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/oscash-pojo/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,75 +40,35 @@
       <file leaf-file-name="Generator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/java/generator/Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="173">
+              <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1810#2177#0" expanded="true" />
-                <element signature="e#2176#2177#0" expanded="true" />
+                <element signature="e#2124#2434#0" expanded="true" />
+                <element signature="e#2433#2434#0" expanded="true" />
+                <element signature="e#3677#3965#0" expanded="true" />
+                <element signature="e#3964#3965#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscash-app/pom.xml">
+      <file leaf-file-name="UserBankController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/web/UserBankController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscash-dao/pom.xml">
+      <file leaf-file-name="IUserBankService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/service/IUserBankService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="39" column="54" lean-forward="false" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OscashDaoApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/OscashDaoApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/resources/mybatis/user/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UseController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oscash-service-user/src/main/java/com/osc/oscashserviceuser/user/IUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -189,9 +93,13 @@
       <find>pagehelper.version</find>
       <find>mapper.version</find>
       <find>setCapitalMode</find>
+      <find>replace</find>
+      <find>isExists</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>GeneratorUtil.replace</replace>
+      <replace>GeneratorUtil.isExists</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -208,8 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/oscash-app/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/oscash-dao/src/main/resources/generator/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/oscash-service-user/src/main/java/com/osc/oscashserviceuser/user/UserBankServiceImpl.java" />
         <option value="$PROJECT_DIR$/oscash-service-user/src/main/java/com/osc/oscashserviceuser/bank/UserBankService.java" />
         <option value="$PROJECT_DIR$/oscash-service-user/src/main/java/com/osc/oscashserviceuser/bank/UserBankServiceImpl.java" />
@@ -259,6 +165,8 @@
         <option value="$PROJECT_DIR$/oscash-app/src/main/java/generator/Generator.java" />
         <option value="$PROJECT_DIR$/oscash-app/pom.xml" />
         <option value="$PROJECT_DIR$/oscash-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/oscash-dao/src/main/java/generator/GeneratorUtil.java" />
+        <option value="$PROJECT_DIR$/oscash-dao/src/main/java/generator/Generator.java" />
       </list>
     </option>
   </component>
@@ -418,28 +326,26 @@
             <path>
               <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
-              <item name="oscash-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
-              <item name="oscash-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
-              <item name="oscash-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
-              <item name="oscash-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="osc" type="462c0819:PsiDirectoryNode" />
+              <item name="oscashapp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
@@ -447,8 +353,6 @@
               <item name="oscash-dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -457,7 +361,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -481,11 +385,11 @@
       <recent name="com.osc.oscashapp.web.user" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_idea\oscash-root\oscash-dao\src\main\resources" />
       <recent name="D:\workspace_idea\oscash-root\oscash-service-user\src\main\java\com\osc\oscashserviceuser\user" />
       <recent name="D:\workspace_idea\oscash-root\oscash-dao\src\main\resources\mybatis\user" />
       <recent name="D:\workspace_idea\oscash-root\oscash-dao\src\main\java\com\osc\oscashdao\mapper\user" />
       <recent name="D:\workspace_idea\oscash-root\oscash-entity\src\main\java\com\osc\oscashentity\user" />
-      <recent name="D:\workspace_idea\oscash-root\oscash-app\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -500,7 +404,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OscashAppApplication">
+  <component name="RunManager" selected="Application.Generator (1)">
     <configuration name="Generator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -537,6 +441,25 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="oscash-app" />
+      <envs />
+    </configuration>
+    <configuration name="GeneratorUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="generator.GeneratorUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="oscash-dao" />
       <envs />
     </configuration>
     <configuration name="OscashAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -729,7 +652,7 @@
         </option>
       </MavenSettings>
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Maven.oscash-dao-generator" />
       <item index="1" class="java.lang.String" itemvalue="Maven.oscash-root-package" />
       <item index="2" class="java.lang.String" itemvalue="Maven.oscash-app-package" />
@@ -737,10 +660,12 @@
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.OscashDaoApplication" />
       <item index="5" class="java.lang.String" itemvalue="Application.Generator" />
       <item index="6" class="java.lang.String" itemvalue="Application.Generator (1)" />
+      <item index="7" class="java.lang.String" itemvalue="Application.GeneratorUtil" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.Generator (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GeneratorUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -761,19 +686,19 @@
       <workItem from="1510628649763" duration="39888000" />
       <workItem from="1510892784786" duration="14236000" />
       <workItem from="1511156932773" duration="974000" />
-      <workItem from="1511157985287" duration="14264000" />
+      <workItem from="1511157985287" duration="28603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88484000" />
+    <option name="totallyTimeSpent" value="102823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47311828" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -789,7 +714,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47311828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47311828" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -849,81 +774,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE-sources.jar!/org/springframework/web/filter/RequestContextFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="493" column="0" lean-forward="false" selection-start-line="493" selection-start-column="0" selection-end-line="493" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="406" column="0" lean-forward="false" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="532" column="0" lean-forward="false" selection-start-line="532" selection-start-column="0" selection-end-line="532" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="380">
-            <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="194" column="20" lean-forward="true" selection-start-line="194" selection-start-column="20" selection-end-line="194" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oscash-app/src/main/resources/application-demo.yml" />
     <entry file="file://$PROJECT_DIR$/oscash-app/src/main/resources/log4j2.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1097,14 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/entity/user/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1135,14 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus/2.1.0/mybatis-plus-2.1.0.jar!/com/baomidou/mybatisplus/generator/config/StrategyConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1195,14 +1029,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/resources/templates/entity.kt.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/resources/templates/controller.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/resources/templates/entity.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1267">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/resources/templates/mapper.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/resources/templates/service.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="27" column="82" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/resources/templates/mapper.xml.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/resources/templates/serviceImpl.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus/2.1.0/mybatis-plus-2.1.0.jar!/com/baomidou/mybatisplus/generator/config/StrategyConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="93" column="28" lean-forward="false" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/java/generator/GeneratorUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/service/IUserBankService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/web/UserBankController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/java/generator/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="173">
+          <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1810#2177#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2124#2434#0" expanded="true" />
+            <element signature="e#2433#2434#0" expanded="true" />
+            <element signature="e#3677#3965#0" expanded="true" />
+            <element signature="e#3964#3965#0" expanded="true" />
           </folding>
         </state>
       </provider>
