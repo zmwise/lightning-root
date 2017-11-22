@@ -91,8 +91,8 @@ public class Generator {
         pc.setMapper("java.com.osc.oscashdao.dao"+getName(tabName,UNDER_LINE));
         pc.setXml("resources.mybatis"+getName(tabName,UNDER_LINE));
         pc.setService("java.com.osc.oscashdao.service"+getName(tabName,UNDER_LINE));       //本项目没用，生成之后删掉
-        pc.setServiceImpl("serviceImpl");   //本项目没用，生成之后删掉
-        pc.setController("web");    //本项目没用，生成之后删掉
+        pc.setServiceImpl("java.com.osc.oscashdao.serviceImpl"+getName(tabName,UNDER_LINE));   //本项目没用，生成之后删掉
+        pc.setController("java.com.osc.oscashdao.web"+getName(tabName,UNDER_LINE));    //本项目没用，生成之后删掉
         mpg.setPackageInfo(pc);
 
         // 注入自定义配置，可以在 VM 中使用 cfg.abc 设置的值
