@@ -1,5 +1,11 @@
+com\osc\oscashdao\entity\user\User.class
+generator\Generator$2.class
+generator\Generator.class
 com\osc\oscashdao\OscashDaoApplication.class
 com\osc\oscashdao\config\datasource\DruidSource.class
-com\osc\oscashdao\mapper\user\bank\TUserBankMapper.class
-META-INF\spring-configuration-metadata.json
+generator\Generator$1.class
+src\main\java\com\osc\oscashdao\dao\user\bank\UserBankDao.class
 com\osc\oscashdao\config\datasource\DruidConfig.class
+META-INF\spring-configuration-metadata.json
+com\osc\oscashdao\dao\user\UserDao.class
+src\main\java\com\osc\oscashdao\entity\user\bank\UserBank.class

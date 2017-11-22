@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/oscash-app/target/maven-archiver/maven-archiver (1).iml" filepath="$PROJECT_DIR$/oscash-app/target/maven-archiver/maven-archiver (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/oscash-service-user/target/maven-archiver/maven-archiver (10).iml" filepath="$PROJECT_DIR$/oscash-service-user/target/maven-archiver/maven-archiver (10).iml" />
+      <module fileurl="file://$PROJECT_DIR$/oscash-service-zhima/target/maven-archiver/maven-archiver (11).iml" filepath="$PROJECT_DIR$/oscash-service-zhima/target/maven-archiver/maven-archiver (11).iml" />
+      <module fileurl="file://$PROJECT_DIR$/oscash-utils/target/maven-archiver/maven-archiver (12).iml" filepath="$PROJECT_DIR$/oscash-utils/target/maven-archiver/maven-archiver (12).iml" />
+      <module fileurl="file://$PROJECT_DIR$/oscash-common/target/maven-archiver/maven-archiver (2).iml" filepath="$PROJECT_DIR$/oscash-common/target/maven-archiver/maven-archiver (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/oscash-dao/target/maven-archiver/maven-archiver (3).iml" filepath="$PROJECT_DIR$/oscash-dao/target/maven-archiver/maven-archiver (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/oscash-pojo/target/maven-archiver/maven-archiver (4).iml" filepath="$PROJECT_DIR$/oscash-pojo/target/maven-archiver/maven-archiver (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/oscash-service-approve/target/maven-archiver/maven-archiver (5).iml" filepath="$PROJECT_DIR$/oscash-service-approve/target/maven-archiver/maven-archiver (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/oscash-service-loan/target/maven-archiver/maven-archiver (6).iml" filepath="$PROJECT_DIR$/oscash-service-loan/target/maven-archiver/maven-archiver (6).iml" />
+      <module fileurl="file://$PROJECT_DIR$/oscash-service-sms/target/maven-archiver/maven-archiver (7).iml" filepath="$PROJECT_DIR$/oscash-service-sms/target/maven-archiver/maven-archiver (7).iml" />
+      <module fileurl="file://$PROJECT_DIR$/oscash-service-timer/target/maven-archiver/maven-archiver (8).iml" filepath="$PROJECT_DIR$/oscash-service-timer/target/maven-archiver/maven-archiver (8).iml" />
+      <module fileurl="file://$PROJECT_DIR$/oscash-service-tongdun/target/maven-archiver/maven-archiver (9).iml" filepath="$PROJECT_DIR$/oscash-service-tongdun/target/maven-archiver/maven-archiver (9).iml" />
       <module fileurl="file://$PROJECT_DIR$/oscash-app/oscash-app.iml" filepath="$PROJECT_DIR$/oscash-app/oscash-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/oscash-common/oscash-common.iml" filepath="$PROJECT_DIR$/oscash-common/oscash-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/oscash-dao/oscash-dao.iml" filepath="$PROJECT_DIR$/oscash-dao/oscash-dao.iml" />

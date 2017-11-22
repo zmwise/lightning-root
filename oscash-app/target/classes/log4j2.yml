@@ -10,7 +10,7 @@ Configuration:
       - name: log.level.osc  
         value: trace         
       - name: log.path  
-        value: E:\logs  
+        value: D:\logs
       - name: project.name  
         value: oscash-app-dev  
     

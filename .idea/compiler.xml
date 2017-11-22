@@ -6,6 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="maven-archiver (1)" />
+        <module name="maven-archiver (10)" />
+        <module name="maven-archiver (11)" />
+        <module name="maven-archiver (12)" />
+        <module name="maven-archiver (2)" />
+        <module name="maven-archiver (3)" />
+        <module name="maven-archiver (4)" />
+        <module name="maven-archiver (5)" />
+        <module name="maven-archiver (6)" />
+        <module name="maven-archiver (7)" />
+        <module name="maven-archiver (8)" />
+        <module name="maven-archiver (9)" />
         <module name="oscash-app" />
         <module name="oscash-common" />
         <module name="oscash-dao" />
@@ -24,7 +36,6 @@
       <module name="oscash-app" target="1.7" />
       <module name="oscash-common" target="1.7" />
       <module name="oscash-dao" target="1.7" />
-      <module name="oscash-entity" target="1.7" />
       <module name="oscash-pojo" target="1.7" />
       <module name="oscash-root" target="1.7" />
       <module name="oscash-service-approve" target="1.7" />
