@@ -16,7 +16,7 @@
 
 ## 技术集成
 - 最佳实践的项目结构、配置文件、精简的POM
-- 集成MyBatis、通用Mapper插件、PageHelper分页插件，实现单表业务零SQL
+- 集成MyBatis、Mybatis plus，实现单表业务零SQL
 - 采用高效稳定数据库连接池Druid
 - 集成Swagger2(RESTFUL接口的文档在线自动生成+功能测试功能软件)
 - 统一异常处理
@@ -42,4 +42,4 @@
 
 ## 技术选型&文档
 - SpringBoot 快速的java开发框架，大大提高程序员的开发效率
-- MyBatis PageHelper分页插件（[查看官方中文文档](https://pagehelper.github.io/)）
+- MyBatis Plus（[查看官方中文文档](http://baomidou.oschina.io/mybatis-plus-doc/#/)）
