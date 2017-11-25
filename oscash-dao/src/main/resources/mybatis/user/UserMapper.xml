@@ -5,8 +5,8 @@
 	<!-- 通用查询映射结果 -->
 	<resultMap id="BaseResultMap" type="com.osc.oscashdao.entity.user.User">
 		<id column="id" property="id" />
-		<result column="user_name" property="userName" />
-		<result column="password" property="password" />
+		<result column="uname" property="uname" />
+		<result column="passwd" property="passwd" />
 	</resultMap>
 
 </mapper>

@@ -12,9 +12,4 @@ import com.osc.oscashdao.entity.user.User;
  * @since 2017-11-17
  */
 public interface UserDao extends BaseMapper<User> {
-    /**
-     * 保存用户
-     * @return
-     */
-    int saveUser(User user);
 }

@@ -26,12 +26,11 @@ public class User extends Model<User> {
     /**
      * 用户名
      */
-	@TableField("user_name")
-	private String userName;
+	private String uname;
     /**
      * 密码
      */
-	private String password;
+	private String passwd;
 
 
 	public Long getId() {
@@ -42,20 +41,20 @@ public class User extends Model<User> {
 		this.id = id;
 	}
 
-	public String getUserName() {
-		return userName;
+	public String getUname() {
+		return uname;
 	}
 
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setUname(String uname) {
+		this.uname = uname;
 	}
 
-	public String getPassword() {
-		return password;
+	public String getPasswd() {
+		return passwd;
 	}
 
-	public void setPassword(String password) {
-		this.password = password;
+	public void setPasswd(String passwd) {
+		this.passwd = passwd;
 	}
 
 	@Override
@@ -67,8 +66,8 @@ public class User extends Model<User> {
 	public String toString() {
 		return "User{" +
 			", id=" + id +
-			", userName=" + userName +
-			", password=" + password +
+			", uname=" + uname +
+			", passwd=" + passwd +
 			"}";
 	}
 }

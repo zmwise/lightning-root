@@ -35,7 +35,7 @@ public class Generator {
             /**
              * tabName 更改此参数为生成代码的表名称
              */
-            shell(model, "t_user_bank");
+            shell(model, "t_user");
         }
     }
 
