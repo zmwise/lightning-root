@@ -33,6 +33,18 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
+      <module name="maven-archiver (1)" target="1.5" />
+      <module name="maven-archiver (10)" target="1.5" />
+      <module name="maven-archiver (11)" target="1.5" />
+      <module name="maven-archiver (12)" target="1.5" />
+      <module name="maven-archiver (2)" target="1.5" />
+      <module name="maven-archiver (3)" target="1.5" />
+      <module name="maven-archiver (4)" target="1.5" />
+      <module name="maven-archiver (5)" target="1.5" />
+      <module name="maven-archiver (6)" target="1.5" />
+      <module name="maven-archiver (7)" target="1.5" />
+      <module name="maven-archiver (8)" target="1.5" />
+      <module name="maven-archiver (9)" target="1.5" />
       <module name="oscash-app" target="1.7" />
       <module name="oscash-common" target="1.7" />
       <module name="oscash-dao" target="1.7" />

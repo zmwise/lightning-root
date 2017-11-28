@@ -1,1 +1,7 @@
+com\osc\oscashcommon\utils\common\CommonUtil.class
+com\osc\oscashcommon\result\Result.class
+com\osc\oscashcommon\utils\ip\IPUtil.class
+com\osc\oscashcommon\result\ResultFactory.class
+com\osc\oscashcommon\utils\ip\IPAddress.class
+com\osc\oscashcommon\constant\status\Status.class
 com\osc\oscashcommon\OscashCommonApplication.class

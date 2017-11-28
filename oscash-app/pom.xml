@@ -46,6 +46,11 @@
 		</dependency>
 		<dependency>
 			<groupId>com.osc</groupId>
+			<artifactId>oscash-common</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.osc</groupId>
 			<artifactId>oscash-dao</artifactId>
 			<version>1.0.0</version>
 		</dependency>
@@ -54,11 +59,7 @@
 			<artifactId>oscash-service-user</artifactId>
 			<version>1.0.0</version>
 		</dependency>
-		<!-- <dependency>
-			<groupId>com.osc</groupId>
-			<artifactId>oscash-common</artifactId>
-			<version>1.0.0</version>
-		</dependency>
+		<!--
 		<dependency>
 			<groupId>com.osc</groupId>
 			<artifactId>oscash-pojo</artifactId>

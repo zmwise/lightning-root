@@ -1,7 +1,6 @@
 package com.osc.oscashapp.web.user;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.osc.oscashapp.properties.memcached.MemcachedProperties;
 import com.osc.oscashdao.entity.user.User;
 import com.osc.oscashserviceuser.user.IUserService;
@@ -21,9 +20,9 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/user")
-public class UseController {
+public class UserController {
 	
-	protected static Logger LOGGER = LoggerFactory.getLogger(UseController.class);
+	protected static Logger LOGGER = LoggerFactory.getLogger(UserController.class);
 	
 	@Autowired
 	private IUserService userService;
@@ -36,23 +35,6 @@ public class UseController {
 	@ResponseBody
 	public String saveUser(User user) {
 
-		System.out.println(JSON.toJSONString(user));
-		userService.saveUser(user);
-
-		LOGGER.info("保存用户成功!");
-
-		return "保存用户成功";
-	}
-
-	@ApiOperation(value = "保存用户",notes = "保存用户")
-	@ApiImplicitParam(name = "User",value = "用户对象")
-	@PostMapping("/saveUser2")
-	@ResponseBody
-	public String saveUser2(User user) {
-
-		/**
-		 * @RequestBody 仅用于使用JSON格式提交数据
-		 */
 		System.out.println(JSON.toJSONString(user));
 		userService.saveUser(user);
 
