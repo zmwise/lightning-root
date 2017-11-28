@@ -2,75 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42047053-846b-40f5-8ddc-1bd97a5746e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/web/user/UserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-app/target/oscash-app-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/constant/status/Status.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/result/Result.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/result/ResultFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/utils/common/CommonUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/utils/ip/IPAddress.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/utils/ip/IPUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/target/oscash-common-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/target/test-classes/com/osc/oscashcommon/OscashCommonApplicationTests.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-dao/target/oscash-dao-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-pojo/target/oscash-pojo-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-approve/target/oscash-service-approve-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-loan/target/oscash-service-loan-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-sms/target/oscash-service-sms-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-timer/target/oscash-service-timer-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-tongdun/target/oscash-service-tongdun-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-user/target/oscash-service-user-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-zhima/target/oscash-service-zhima-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-utils/target/oscash-utils-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_20030203_000129.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-app/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/constant/status/Status.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/result/Result.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/result/ResultFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/utils/common/CommonUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/utils/ip/IPAddress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/utils/ip/IPUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-common/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-dao/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-pojo/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-approve/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-loan/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-sms/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-timer/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-tongdun/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-user/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-service-zhima/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oscash-utils/target/maven-archiver/pom.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/web/user/UseController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/generator/generatorConfig.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/generator/generatorConfig.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/OscashAppApplication.class" afterPath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/OscashAppApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/target/oscash-app-1.0.0.jar" afterPath="$PROJECT_DIR$/oscash-app/target/oscash-app-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-common/target/oscash-common-1.0.0.jar" afterPath="$PROJECT_DIR$/oscash-common/target/oscash-common-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/target/oscash-dao-1.0.0.jar" afterPath="$PROJECT_DIR$/oscash-dao/target/oscash-dao-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-pojo/target/oscash-pojo-1.0.0.jar" afterPath="$PROJECT_DIR$/oscash-pojo/target/oscash-pojo-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-approve/target/oscash-service-approve-1.0.0.jar" afterPath="$PROJECT_DIR$/oscash-service-approve/target/oscash-service-approve-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-loan/target/oscash-service-loan-1.0.0.jar" afterPath="$PROJECT_DIR$/oscash-service-loan/target/oscash-service-loan-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-sms/target/oscash-service-sms-1.0.0.jar" afterPath="$PROJECT_DIR$/oscash-service-sms/target/oscash-service-sms-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-timer/target/oscash-service-timer-1.0.0.jar" afterPath="$PROJECT_DIR$/oscash-service-timer/target/oscash-service-timer-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-tongdun/target/oscash-service-tongdun-1.0.0.jar" afterPath="$PROJECT_DIR$/oscash-service-tongdun/target/oscash-service-tongdun-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-user/target/oscash-service-user-1.0.0.jar" afterPath="$PROJECT_DIR$/oscash-service-user/target/oscash-service-user-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-zhima/target/oscash-service-zhima-1.0.0.jar" afterPath="$PROJECT_DIR$/oscash-service-zhima/target/oscash-service-zhima-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-utils/target/oscash-utils-1.0.0.jar" afterPath="$PROJECT_DIR$/oscash-utils/target/oscash-utils-1.0.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/oscash-app.iml" afterPath="$PROJECT_DIR$/oscash-app/oscash-app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/pom.xml" afterPath="$PROJECT_DIR$/oscash-app/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/OscashAppApplication.java" afterPath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/OscashAppApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/target/maven-archiver/maven-archiver (1).iml" afterPath="$PROJECT_DIR$/oscash-app/target/maven-archiver/maven-archiver (1).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/oscash-app/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/oscash-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/oscash-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-common/oscash-common.iml" afterPath="$PROJECT_DIR$/oscash-common/oscash-common.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-common/pom.xml" afterPath="$PROJECT_DIR$/oscash-common/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-common/target/maven-archiver/maven-archiver (2).iml" afterPath="$PROJECT_DIR$/oscash-common/target/maven-archiver/maven-archiver (2).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/oscash-common/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/oscash-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/oscash-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/target/maven-archiver/maven-archiver (3).iml" afterPath="$PROJECT_DIR$/oscash-dao/target/maven-archiver/maven-archiver (3).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-dao/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/oscash-dao/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-pojo/target/maven-archiver/maven-archiver (4).iml" afterPath="$PROJECT_DIR$/oscash-pojo/target/maven-archiver/maven-archiver (4).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-pojo/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/oscash-pojo/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-approve/target/maven-archiver/maven-archiver (5).iml" afterPath="$PROJECT_DIR$/oscash-service-approve/target/maven-archiver/maven-archiver (5).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-approve/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/oscash-service-approve/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-loan/target/maven-archiver/maven-archiver (6).iml" afterPath="$PROJECT_DIR$/oscash-service-loan/target/maven-archiver/maven-archiver (6).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-loan/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/oscash-service-loan/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-sms/target/maven-archiver/maven-archiver (7).iml" afterPath="$PROJECT_DIR$/oscash-service-sms/target/maven-archiver/maven-archiver (7).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-sms/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/oscash-service-sms/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-timer/target/maven-archiver/maven-archiver (8).iml" afterPath="$PROJECT_DIR$/oscash-service-timer/target/maven-archiver/maven-archiver (8).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-timer/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/oscash-service-timer/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-tongdun/target/maven-archiver/maven-archiver (9).iml" afterPath="$PROJECT_DIR$/oscash-service-tongdun/target/maven-archiver/maven-archiver (9).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-tongdun/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/oscash-service-tongdun/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-user/target/maven-archiver/maven-archiver (10).iml" afterPath="$PROJECT_DIR$/oscash-service-user/target/maven-archiver/maven-archiver (10).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-user/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/oscash-service-user/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-zhima/target/maven-archiver/maven-archiver (11).iml" afterPath="$PROJECT_DIR$/oscash-service-zhima/target/maven-archiver/maven-archiver (11).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-service-zhima/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/oscash-service-zhima/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-utils/target/maven-archiver/maven-archiver (12).iml" afterPath="$PROJECT_DIR$/oscash-utils/target/maven-archiver/maven-archiver (12).iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UseController.java" afterPath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oscash-utils/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/oscash-utils/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/oscash-service-loan/target/" />
     <ignored path="$PROJECT_DIR$/oscash-service-user/target/" />
@@ -97,9 +74,67 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="352">
+              <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="36" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/example/EmployeeA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/example/EmployeeB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExampleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/example/ExampleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanMapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/utils/dozer/BeanMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1978#1979#0" expanded="true" />
+                <element signature="e#2036#2037#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DozerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/config/DozerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,36 +142,44 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oscash-app/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="111" column="49" lean-forward="false" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
-              <folding>
-                <marker date="1511860368870" expanded="true" signature="2030:2290" ph="..." />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/oscash-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1294">
-              <caret line="116" column="12" lean-forward="false" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+            <state relative-caret-position="584">
+              <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/oscash-common/pom.xml">
+      <file leaf-file-name="OscashAppApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/OscashAppApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="62" column="24" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="62" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="440">
+              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1511883177678" expanded="true" signature="541:589" ph="/**...*/" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -179,9 +222,13 @@
         <option value="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/constant/status/Status.java" />
         <option value="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UseController.java" />
         <option value="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UserController.java" />
-        <option value="$PROJECT_DIR$/oscash-app/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/config/dozer/DozerConfig.java" />
         <option value="$PROJECT_DIR$/oscash-common/pom.xml" />
+        <option value="$PROJECT_DIR$/oscash-app/pom.xml" />
+        <option value="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/OscashAppApplication.java" />
+        <option value="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/example/ExampleController.java" />
+        <option value="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/utils/dozer/BeanMapper.java" />
       </list>
     </option>
   </component>
@@ -265,6 +312,188 @@
               <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="osc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="osc" type="462c0819:PsiDirectoryNode" />
+              <item name="oscashapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="osc" type="462c0819:PsiDirectoryNode" />
+              <item name="oscashapp" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="osc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="osc" type="462c0819:PsiDirectoryNode" />
+              <item name="oscashcommon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="osc" type="462c0819:PsiDirectoryNode" />
+              <item name="oscashcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oscash-root" type="462c0819:PsiDirectoryNode" />
+              <item name="oscash-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: net.sf.dozer:dozer:5.5.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: net.sf.dozer:dozer:5.5.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="dozer-5.5.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: net.sf.dozer:dozer:5.5.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="dozer-5.5.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oscash-root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: net.sf.dozer:dozer:5.5.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="dozer-5.5.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="dozer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -283,6 +512,16 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.osc.oscashapp.config.dozer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_idea\oscash-root\oscash-app\src\main\resources" />
+      <recent name="D:\workspace_idea\oscash-root\oscash-common\src\main\resources\dozer" />
+      <recent name="D:\workspace_idea\oscash-root\oscash-common\src\main\java\com\osc\oscashcommon\config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -416,7 +655,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33846000" />
+    <option name="totallyTimeSpent" value="40895000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,7 +679,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39342403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63265306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -530,108 +769,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/constant/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/OscashCommonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/constant/status/StatusConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/example/ExampleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/hello/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/java/generator/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="73" column="32" lean-forward="false" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/OscashAppApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1511847420398" expanded="true" signature="607:655" ph="/**...*/" />
-            <marker date="1511847420398" expanded="true" signature="656:794" ph="@{...}" />
-            <marker date="1511847420398" expanded="true" signature="985:1094" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-dao/src/main/java/generator/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oscash-app/src/main/resources/log4j2.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -663,19 +800,6 @@
         <state relative-caret-position="1364">
           <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/OscashAppApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="25" column="90" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1511847420398" expanded="true" signature="607:655" ph="/**...*/" />
-            <marker date="1511847420398" expanded="true" signature="656:794" ph="@{...}" />
-            <marker date="1511847420398" expanded="true" signature="985:1094" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,24 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oscash-app/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="111" column="49" lean-forward="false" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
-          <folding>
-            <marker date="1511860368870" expanded="true" signature="2030:2290" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1294">
@@ -920,11 +1026,145 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/example/EmployeeA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/example/EmployeeB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-common/src/main/resources/dozer/dozer-mapping-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-common/src/main/resources/dozer/beanmapping.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/config/swagger2/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/resources/dozer/beanmapping.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/config/dozer/DozerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oscash-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="62" column="24" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="62" selection-end-column="24" />
+        <state relative-caret-position="584">
+          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/config/DozerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/OscashAppApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1511883177678" expanded="true" signature="541:589" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/dozer/dozer/5.5.1/dozer-5.5.1.jar!/org/dozer/DozerBeanMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="120" column="71" lean-forward="false" selection-start-line="120" selection-start-column="71" selection-end-line="120" selection-end-column="71" />
+          <folding>
+            <element signature="e#2218#2219#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/example/ExampleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/dozer/dozer/5.5.1/dozer-5.5.1.jar!/org/dozer/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/utils/dozer/BeanMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
+            <element signature="e#2036#2037#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
