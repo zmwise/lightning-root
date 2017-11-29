@@ -1,11 +1,12 @@
 package com.osc.oscashapp.web.example;
 
 import com.alibaba.fastjson.JSON;
-import com.osc.oscashcommon.utils.dozer.BeanMapper;
+import com.osc.oscashcommon.utils.dozer.BeanUtil;
 import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -22,6 +23,9 @@ public class ExampleController {
 
     private static Logger LOGGER = LoggerFactory.getLogger(ExampleController.class);
 
+    @Autowired
+    BeanUtil beanUtil;
+
     static Mapper mapper = new DozerBeanMapper();
 
     @RequestMapping("/test")
@@ -31,7 +35,9 @@ public class ExampleController {
         employeeA.setFirstName("seo");
         employeeA.setBirthday(new Date());
 
-        EmployeeB employee = BeanMapper.map(employeeA, EmployeeB.class);
+        //EmployeeB employee = BeanUtil.map(employeeA, EmployeeB.class);
+
+        EmployeeB employee = beanUtil.map(employeeA, EmployeeB.class);
 
         LOGGER.info("EmployeeB>>"+ JSON.toJSONString(employee));
         return employee;
