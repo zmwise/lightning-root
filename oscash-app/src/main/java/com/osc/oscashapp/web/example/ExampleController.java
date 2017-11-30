@@ -1,6 +1,7 @@
 package com.osc.oscashapp.web.example;
 
 import com.alibaba.fastjson.JSON;
+import com.osc.oscashapp.syslog.SystemControllerLog;
 import com.osc.oscashcommon.utils.dozer.BeanUtil;
 import org.dozer.DozerBeanMapper;
 import org.dozer.Mapper;
@@ -26,16 +27,13 @@ public class ExampleController {
     @Autowired
     BeanUtil beanUtil;
 
-    static Mapper mapper = new DozerBeanMapper();
-
     @RequestMapping("/test")
+    @SystemControllerLog(description = "test")
     public EmployeeB test(){
         EmployeeA employeeA = new EmployeeA();
         employeeA.setLastName("jiyeon");
         employeeA.setFirstName("seo");
         employeeA.setBirthday(new Date());
-
-        //EmployeeB employee = BeanUtil.map(employeeA, EmployeeB.class);
 
         EmployeeB employee = beanUtil.map(employeeA, EmployeeB.class);
 
