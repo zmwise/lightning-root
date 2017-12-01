@@ -16,8 +16,6 @@ import java.util.Map;
 
 /**
  * @description: mybatis-plus代码生成器(用于生成entity)<br>
- * 注意:<br>
- *     因为没用mybatis-plus的Service和Controller所以生成完之后要删掉TTT目录
  * @author: lizhiming
  * @since: 2017/11/10
  */
@@ -90,9 +88,9 @@ public class Generator {
         pc.setEntity("java.com.osc.oscashdao.entity"+tabPackage);
         pc.setMapper("java.com.osc.oscashdao.dao"+getName(tabName,UNDER_LINE));
         pc.setXml("resources.mybatis"+getName(tabName,UNDER_LINE));
-        pc.setService("java.com.osc.oscashdao.service"+getName(tabName,UNDER_LINE));       //本项目没用，生成之后删掉
-        pc.setServiceImpl("java.com.osc.oscashdao.serviceImpl"+getName(tabName,UNDER_LINE));   //本项目没用，生成之后删掉
-        pc.setController("java.com.osc.oscashdao.web"+getName(tabName,UNDER_LINE));    //本项目没用，生成之后删掉
+        pc.setService("java.com.osc.oscashdao.service"+getName(tabName,UNDER_LINE));
+        pc.setServiceImpl("java.com.osc.oscashdao.serviceImpl"+getName(tabName,UNDER_LINE));
+        pc.setController("java.com.osc.oscashdao.web"+getName(tabName,UNDER_LINE));
         mpg.setPackageInfo(pc);
 
         // 注入自定义配置，可以在 VM 中使用 cfg.abc 设置的值
