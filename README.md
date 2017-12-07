@@ -29,9 +29,11 @@
 - 系统消息中间件RabbitMQ
 - 定时器采用Spring自带的Schedule
 
-## 快速开始
-1. 根据业务在基础代码上进行扩展
-2. 对开发环境配置文件,采用可读性、简洁性更好的yaml配置<br>
+## 快速开始（环境修改）
+1. 启动开始前需要根据自身环境情况修改lightning-app中的application.yml数据库连接地址
+2. 修改Redis地址信息
+3. 修改RabbitMQ地址信息
+4. 对开发环境配置文件,采用可读性、简洁性更好的yaml配置<br>
 	```application.yml```<br>
 	```application-dev.yml```<br>
 	```application-test.yml```<br>
