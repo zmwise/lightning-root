@@ -9,10 +9,13 @@ import com.osc.common.result.ResultFactory;
 import com.osc.common.utils.dozer.BeanUtil;
 import com.osc.data.entity.user.User;
 import com.osc.pojo.vo.login.LoginVo;
+import com.osc.servicerabbitmq.config.Sender;
+import com.osc.serviceredis.cache.CommonRedisService;
 import com.osc.serviceuser.user.IUserService;
 import io.swagger.annotations.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.amqp.core.Queue;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.Date;
@@ -36,6 +39,8 @@ public class ExampleController {
     private IUserService userService;
     @Autowired
     private MemcachedProperties memcached;
+    @Autowired
+    private CommonRedisService redisService;
 
     /**
      * 对象复制示例
@@ -145,5 +150,23 @@ public class ExampleController {
 
         return ResultFactory.successData(users);
 
+    }
+
+    /**
+     * Redis缓存示例
+     * @return
+     */
+    @GetMapping("/redis")
+    @ApiOperation(value = "【DEMO模块】Redis缓存示例")
+    public Result redis() {
+
+        redisService.cacheValue("lzm","lzm hello");
+
+        String say = redisService.getValue("lzm");
+        LOGGER.info("redis context>>"+say);
+
+        new Queue("hello");
+
+        return ResultFactory.successResult();
     }
 }

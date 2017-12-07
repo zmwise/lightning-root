@@ -18,7 +18,7 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @MapperScan("com.osc.data.dao")
-@ComponentScan(basePackages={"com.osc.serviceuser","com.osc.app"})
+@ComponentScan(basePackages={"com.osc.serviceuser","com.osc.serviceredis","com.osc.app"})
 //@ServletComponentScan
 public class AppApplication {
 

@@ -2,358 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e5848f-4bb6-4f4b-b08f-96a1ba80a99f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_osc_oscash_entity_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/oscash-app.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/OscashAppApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/config/aop/WebLogAspect.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/config/dozer/DozerConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/config/shiro/ShiroConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/config/swagger2/Swagger2Config.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/constant/status/StatusConstant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/exception/GlobalExceptionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/properties/memcached/MemcachedProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/syslog/SystemControllerLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/syslog/SystemServiceLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/example/EmployeeA.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/example/EmployeeB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/example/ExampleController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/hello/HelloController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/java/com/osc/oscashapp/web/user/UserController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/resources/application-dev.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/resources/application-prod.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/resources/application-test.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/resources/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/resources/dozer/beanmapping.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/resources/dozer/dozer-mapping-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/resources/log4j2.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/resources/memcached.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/resources/prod_config/log4j2.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/resources/prod_config/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/resources/test_config/log4j2.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/main/resources/test_config/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/test/java/com/osc/oscashapp/OscashAppApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/src/test/test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/application-dev.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/application-prod.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/application-test.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/OscashAppApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/config/aop/WebLogAspect.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/config/dozer/DozerConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/config/shiro/ShiroConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/config/swagger2/Swagger2Config.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/constant/status/StatusConstant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/exception/GlobalExceptionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/properties/memcached/MemcachedProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/syslog/SystemControllerLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/syslog/SystemServiceLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/web/example/EmployeeA.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/web/example/EmployeeB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/web/example/ExampleController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/web/hello/HelloController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/com/osc/oscashapp/web/user/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/dozer/beanmapping.xsd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/dozer/dozer-mapping-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/log4j2.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/memcached.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/prod_config/log4j2.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/prod_config/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/test_config/log4j2.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/classes/test_config/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/maven-archiver/maven-archiver (1).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/oscash-app-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-app/target/test-classes/com/osc/oscashapp/OscashAppApplicationTests.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/oscash-common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/OscashCommonApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/constant/status/Status.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/result/Result.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/result/ResultFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/utils/common/CommonUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/utils/dozer/BeanUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/utils/ip/IPAddress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/src/main/java/com/osc/oscashcommon/utils/ip/IPUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/src/test/java/com/osc/oscashcommon/OscashCommonApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/OscashCommonApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/constant/status/Status.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/result/Result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/result/ResultFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/utils/common/CommonUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/utils/dozer/BeanUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/utils/ip/IPAddress.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/classes/com/osc/oscashcommon/utils/ip/IPUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/maven-archiver/maven-archiver (2).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/oscash-common-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-common/target/test-classes/com/osc/oscashcommon/OscashCommonApplicationTests.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/oscash-dao.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/OscashDaoApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/config/datasource/DruidConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/config/datasource/DruidSource.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/dao/user/UserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/dao/user/bank/UserBankDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/entity/user/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/entity/user/bank/UserBank.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/xml/user/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/com/osc/oscashdao/xml/user/bank/UserBankMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/java/generator/Generator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/resources/generator/generatorConfig.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/resources/generator/generatorConfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/service/IUserBankService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/service/impl/UserBankServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/main/web/UserBankController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/src/test/java/com/osc/oscashdao/OscashDaoApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/com/osc/oscashdao/OscashDaoApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/com/osc/oscashdao/config/datasource/DruidConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/com/osc/oscashdao/config/datasource/DruidSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/com/osc/oscashdao/dao/user/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/com/osc/oscashdao/entity/user/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/generator/Generator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/generator/Generator$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/generator/Generator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/generator/generatorConfig.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/generator/generatorConfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/mybatis/user/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/mybatis/user/bank/UserBankMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/src/main/java/com/osc/oscashdao/dao/user/bank/UserBankDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/classes/src/main/java/com/osc/oscashdao/entity/user/bank/UserBank.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/maven-archiver/maven-archiver (3).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/oscash-dao-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-dao/target/test-classes/com/osc/oscashdao/OscashDaoApplicationTests.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-pojo/oscash-pojo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-pojo/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-pojo/src/main/java/com/osc/oscashpojo/OscashPojoApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-pojo/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-pojo/src/test/java/com/osc/oscashpojo/OscashPojoApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-pojo/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-pojo/target/classes/com/osc/oscashpojo/OscashPojoApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-pojo/target/maven-archiver/maven-archiver (4).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-pojo/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-pojo/target/oscash-pojo-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-root.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-approve/oscash-service-approve.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-approve/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-approve/src/main/java/com/osc/oscashserviceapprove/OscashServiceApproveApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-approve/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-approve/src/test/java/com/osc/oscashserviceapprove/OscashServiceApproveApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-approve/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-approve/target/classes/com/osc/oscashserviceapprove/OscashServiceApproveApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-approve/target/maven-archiver/maven-archiver (5).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-approve/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-approve/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-approve/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-approve/target/oscash-service-approve-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-loan/oscash-service-loan.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-loan/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-loan/src/main/java/com/osc/oscashserviceloan/OscashServiceLoanApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-loan/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-loan/src/test/java/com/osc/oscashserviceloan/OscashServiceLoanApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-loan/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-loan/target/classes/com/osc/oscashserviceloan/OscashServiceLoanApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-loan/target/maven-archiver/maven-archiver (6).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-loan/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-loan/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-loan/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-loan/target/oscash-service-loan-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-sms/oscash-service-sms.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-sms/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-sms/src/main/java/com/osc/oscashservicesms/OscashServiceSmsApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-sms/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-sms/src/test/java/com/osc/oscashservicesms/OscashServiceSmsApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-sms/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-sms/target/classes/com/osc/oscashservicesms/OscashServiceSmsApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-sms/target/maven-archiver/maven-archiver (7).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-sms/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-sms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-sms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-sms/target/oscash-service-sms-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-timer/oscash-service-timer.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-timer/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-timer/src/main/java/com/osc/oscashservicetimer/OscashServiceTimerApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-timer/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-timer/src/test/java/com/osc/oscashservicetimer/OscashServiceTimerApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-timer/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-timer/target/classes/com/osc/oscashservicetimer/OscashServiceTimerApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-timer/target/maven-archiver/maven-archiver (8).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-timer/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-timer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-timer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-timer/target/oscash-service-timer-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-tongdun/oscash-service-tongdun.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-tongdun/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-tongdun/src/main/java/com/osc/oscashservicetongdun/OscashServiceTongdunApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-tongdun/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-tongdun/src/test/java/com/osc/oscashservicetongdun/OscashServiceTongdunApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-tongdun/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-tongdun/target/classes/com/osc/oscashservicetongdun/OscashServiceTongdunApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-tongdun/target/maven-archiver/maven-archiver (9).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-tongdun/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-tongdun/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-tongdun/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-tongdun/target/oscash-service-tongdun-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/oscash-service-user.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/src/main/java/com/osc/oscashserviceuser/OscashServiceUserApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/src/main/java/com/osc/oscashserviceuser/user/IUserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/src/main/java/com/osc/oscashserviceuser/user/UserServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/src/test/java/com/osc/oscashserviceuser/OscashServiceUserApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/target/classes/com/osc/oscashserviceuser/OscashServiceUserApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/target/classes/com/osc/oscashserviceuser/user/IUserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/target/classes/com/osc/oscashserviceuser/user/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/target/maven-archiver/maven-archiver (10).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/target/oscash-service-user-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-user/target/test-classes/com/osc/oscashserviceuser/OscashServiceUserApplicationTests.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-zhima/oscash-service-zhima.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-zhima/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-zhima/src/main/java/com/osc/oscashservicezhima/OscashServiceZhimaApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-zhima/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-zhima/src/test/java/com/osc/oscashservicezhima/OscashServiceZhimaApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-zhima/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-zhima/target/classes/com/osc/oscashservicezhima/OscashServiceZhimaApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-zhima/target/maven-archiver/maven-archiver (11).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-zhima/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-zhima/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-zhima/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-service-zhima/target/oscash-service-zhima-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-utils/oscash-utils.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-utils/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-utils/src/main/java/com/osc/oscashutils/OscashUtilsApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-utils/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-utils/src/test/java/com/osc/oscashutils/OscashUtilsApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-utils/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-utils/target/classes/com/osc/oscashutils/OscashUtilsApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-utils/target/maven-archiver/maven-archiver (12).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-utils/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/oscash-utils/target/oscash-utils-1.0.0.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_2_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_2_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatisplus_spring_boot_starter_1_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatisplus_spring_boot_starter_1_0_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_42.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_42.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ehcache_ehcache_3_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ehcache_ehcache_3_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_1_5_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_1_5_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_1_5_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_1_5_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_8_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_8_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_12_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_12_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_12_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_12_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_12_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_12_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_12_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_12_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_12_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_12_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_12_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_12_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_12_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_12_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_12_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_12_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_12_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_12_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_12_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_12_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_4_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_1_1_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_7_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_7_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_1_5_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_12_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/Receiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/Sender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lightning-service-redis/src/main/java/com/osc/serviceredis/cache/CommonRedisService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lightning-service-redis/src/main/java/com/osc/serviceredis/cache/CommonRedisServiceImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_unknown.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lightning-service-rabbitmq/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lightning-service-rabbitmq/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-app/target/classes/com/osc/app/AppApplication.class" afterPath="$PROJECT_DIR$/lightning-app/target/classes/com/osc/app/AppApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-app/target/classes/com/osc/app/web/example/ExampleController.class" afterPath="$PROJECT_DIR$/lightning-app/target/classes/com/osc/app/web/example/ExampleController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-app/lightning-app.iml" afterPath="$PROJECT_DIR$/lightning-app/lightning-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java" afterPath="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/web/example/ExampleController.java" afterPath="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/web/example/ExampleController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-app/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/lightning-app/src/main/resources/application-dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-service-rabbitmq/pom.xml" afterPath="$PROJECT_DIR$/lightning-service-rabbitmq/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lightning-service-redis/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/lightning-service-redis/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/lightning-app/target/" />
     <ignored path="$PROJECT_DIR$/lightning-common/target/" />
@@ -382,51 +56,8 @@
       <file leaf-file-name="AppApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lightning-service-redis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lightning-app/src/main/resources/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1386">
-                <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lightning-service-loan/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="20" column="72" lean-forward="false" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -435,44 +66,136 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lightning-app/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
+            <state relative-caret-position="-3679">
               <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceRedisApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lightning-service-redis/src/main/java/com/osc/serviceredis/ServiceRedisApplication.java">
+      <file leaf-file-name="CommonRedisServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lightning-service-redis/src/main/java/com/osc/serviceredis/cache/CommonRedisServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="126" column="18" lean-forward="false" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1193#1194#0" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="e#2075#2076#0" expanded="true" />
+                <element signature="e#2118#2119#0" expanded="true" />
+                <element signature="e#2263#2264#0" expanded="true" />
+                <element signature="e#2319#2320#0" expanded="true" />
+                <element signature="e#2462#2463#0" expanded="true" />
+                <element signature="e#2516#2517#0" expanded="true" />
+                <element signature="e#2660#2661#0" expanded="true" />
+                <element signature="e#2715#2716#0" expanded="true" />
+                <element signature="e#3553#3554#0" expanded="true" />
+                <element signature="e#3604#3605#0" expanded="true" />
+                <element signature="e#3660#3661#0" expanded="true" />
+                <element signature="e#3709#3710#0" expanded="true" />
+                <element signature="e#3766#3767#0" expanded="true" />
+                <element signature="e#3816#3817#0" expanded="true" />
+                <element signature="e#4633#4634#0" expanded="true" />
+                <element signature="e#4674#4675#0" expanded="true" />
+                <element signature="e#5524#5525#0" expanded="true" />
+                <element signature="e#5565#5566#0" expanded="true" />
+                <element signature="e#6830#6831#0" expanded="true" />
+                <element signature="e#6872#6873#0" expanded="true" />
+                <element signature="e#7712#7713#0" expanded="true" />
+                <element signature="e#7754#7755#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lightning-service-redis/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExampleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/web/example/ExampleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="320">
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Sender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/Sender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="68" column="48" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="68" selection-end-column="48" />
+            <state relative-caret-position="220">
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Receiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/Receiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceRabbitmqApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/ServiceRabbitmqApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -506,12 +229,19 @@
         <option value="$PROJECT_DIR$/lightning-data/src/main/java/com/osc/data/OscashDaoApplication.java" />
         <option value="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/OscashAppApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/lightning-service-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/lightning-service-redis/pom.xml" />
         <option value="$PROJECT_DIR$/lightning-app/pom.xml" />
-        <option value="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java" />
-        <option value="$PROJECT_DIR$/lightning-app/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lightning-service-redis/src/main/java/com/osc/serviceredis/cache/CommonRedisService.java" />
+        <option value="$PROJECT_DIR$/lightning-service-redis/src/main/java/com/osc/serviceredis/cache/CommonRedisServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lightning-app/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/lightning-service-redis/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java" />
+        <option value="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lightning-service-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/Sender.java" />
+        <option value="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/Receiver.java" />
+        <option value="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/web/example/ExampleController.java" />
       </list>
     </option>
   </component>
@@ -577,75 +307,6 @@
             <path>
               <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-redis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -838,16 +499,15 @@
       <option name="presentableId" value="Default" />
       <updated>1512613383629</updated>
       <workItem from="1512613388678" duration="2218000" />
-      <workItem from="1512615754365" duration="6221000" />
+      <workItem from="1512615754365" duration="13849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8439000" />
+    <option name="totallyTimeSpent" value="16067000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -863,7 +523,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54875284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23229614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3111588" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -978,54 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lightning-service-loan/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="23" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="68" column="48" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="68" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lightning-service-redis/src/main/java/com/osc/serviceredis/ServiceRedisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lightning-app/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lightning-service-redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1034,22 +646,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lightning-app/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="154">
+            <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-service-loan/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1386">
-            <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/lightning-service-redis/src/main/java/com/osc/serviceredis/ServiceRedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-service-user/src/main/java/com/osc/serviceuser/user/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-service-user/src/main/java/com/osc/serviceuser/user/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-app/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="35" column="81" lean-forward="false" selection-start-line="35" selection-start-column="81" selection-end-line="35" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-666">
+          <caret line="68" column="48" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="68" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-service-redis/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="72" lean-forward="false" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-service-redis/src/main/java/com/osc/serviceredis/cache/CommonRedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="113" column="12" lean-forward="false" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3679">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-service-redis/src/main/java/com/osc/serviceredis/cache/CommonRedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="126" column="18" lean-forward="false" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#2118#2119#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
+            <element signature="e#2319#2320#0" expanded="true" />
+            <element signature="e#2462#2463#0" expanded="true" />
+            <element signature="e#2516#2517#0" expanded="true" />
+            <element signature="e#2660#2661#0" expanded="true" />
+            <element signature="e#2715#2716#0" expanded="true" />
+            <element signature="e#3553#3554#0" expanded="true" />
+            <element signature="e#3604#3605#0" expanded="true" />
+            <element signature="e#3660#3661#0" expanded="true" />
+            <element signature="e#3709#3710#0" expanded="true" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3816#3817#0" expanded="true" />
+            <element signature="e#4633#4634#0" expanded="true" />
+            <element signature="e#4674#4675#0" expanded="true" />
+            <element signature="e#5524#5525#0" expanded="true" />
+            <element signature="e#5565#5566#0" expanded="true" />
+            <element signature="e#6830#6831#0" expanded="true" />
+            <element signature="e#6872#6873#0" expanded="true" />
+            <element signature="e#7712#7713#0" expanded="true" />
+            <element signature="e#7754#7755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/ServiceRabbitmqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/web/example/ExampleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
