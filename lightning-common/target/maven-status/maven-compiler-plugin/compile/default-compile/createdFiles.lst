@@ -1,0 +1,9 @@
+com\osc\common\utils\ip\IPAddress.class
+com\osc\common\utils\ip\IPUtil.class
+com\osc\common\utils\common\CommonUtil.class
+com\osc\common\exception\ServiceException.class
+com\osc\common\utils\dozer\BeanUtil.class
+com\osc\common\result\Result.class
+com\osc\common\OscashCommonApplication.class
+com\osc\common\result\ResultFactory.class
+com\osc\common\constant\status\Status.class

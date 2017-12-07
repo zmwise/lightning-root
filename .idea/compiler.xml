@@ -6,6 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lightning-app" />
+        <module name="lightning-common" />
+        <module name="lightning-data" />
+        <module name="lightning-pojo" />
+        <module name="lightning-service-approve" />
+        <module name="lightning-service-loan" />
+        <module name="lightning-service-rabbitmq" />
+        <module name="lightning-service-redis" />
+        <module name="lightning-service-sms" />
+        <module name="lightning-service-timer" />
+        <module name="lightning-service-tongdun" />
+        <module name="lightning-service-user" />
+        <module name="lightning-service-zhima" />
+        <module name="lightning-utils" />
+        <module name="maven-archiver" />
         <module name="maven-archiver (1)" />
         <module name="maven-archiver (10)" />
         <module name="maven-archiver (11)" />
@@ -18,21 +33,25 @@
         <module name="maven-archiver (7)" />
         <module name="maven-archiver (8)" />
         <module name="maven-archiver (9)" />
-        <module name="oscash-app" />
-        <module name="oscash-common" />
-        <module name="oscash-dao" />
-        <module name="oscash-pojo" />
-        <module name="oscash-service-approve" />
-        <module name="oscash-service-loan" />
-        <module name="oscash-service-sms" />
-        <module name="oscash-service-timer" />
-        <module name="oscash-service-tongdun" />
-        <module name="oscash-service-user" />
-        <module name="oscash-service-zhima" />
-        <module name="oscash-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
+      <module name="lightning-app" target="1.7" />
+      <module name="lightning-common" target="1.7" />
+      <module name="lightning-data" target="1.7" />
+      <module name="lightning-pojo" target="1.7" />
+      <module name="lightning-root" target="1.7" />
+      <module name="lightning-service-approve" target="1.7" />
+      <module name="lightning-service-loan" target="1.7" />
+      <module name="lightning-service-rabbitmq" target="1.7" />
+      <module name="lightning-service-redis" target="1.7" />
+      <module name="lightning-service-sms" target="1.7" />
+      <module name="lightning-service-timer" target="1.7" />
+      <module name="lightning-service-tongdun" target="1.7" />
+      <module name="lightning-service-user" target="1.7" />
+      <module name="lightning-service-zhima" target="1.7" />
+      <module name="lightning-utils" target="1.7" />
+      <module name="maven-archiver" target="1.5" />
       <module name="maven-archiver (1)" target="1.5" />
       <module name="maven-archiver (10)" target="1.5" />
       <module name="maven-archiver (11)" target="1.5" />
@@ -45,19 +64,6 @@
       <module name="maven-archiver (7)" target="1.5" />
       <module name="maven-archiver (8)" target="1.5" />
       <module name="maven-archiver (9)" target="1.5" />
-      <module name="oscash-app" target="1.7" />
-      <module name="oscash-common" target="1.7" />
-      <module name="oscash-dao" target="1.7" />
-      <module name="oscash-pojo" target="1.7" />
-      <module name="oscash-root" target="1.7" />
-      <module name="oscash-service-approve" target="1.7" />
-      <module name="oscash-service-loan" target="1.7" />
-      <module name="oscash-service-sms" target="1.7" />
-      <module name="oscash-service-timer" target="1.7" />
-      <module name="oscash-service-tongdun" target="1.7" />
-      <module name="oscash-service-user" target="1.7" />
-      <module name="oscash-service-zhima" target="1.7" />
-      <module name="oscash-utils" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

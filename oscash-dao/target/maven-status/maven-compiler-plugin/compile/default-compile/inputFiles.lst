@@ -1,8 +1,0 @@
-D:\workspace_idea\oscash-root\oscash-dao\src\main\java\generator\Generator.java
-D:\workspace_idea\oscash-root\oscash-dao\src\main\java\com\osc\oscashdao\OscashDaoApplication.java
-D:\workspace_idea\oscash-root\oscash-dao\src\main\java\com\osc\oscashdao\dao\user\UserDao.java
-D:\workspace_idea\oscash-root\oscash-dao\src\main\java\com\osc\oscashdao\dao\user\bank\UserBankDao.java
-D:\workspace_idea\oscash-root\oscash-dao\src\main\java\com\osc\oscashdao\entity\user\bank\UserBank.java
-D:\workspace_idea\oscash-root\oscash-dao\src\main\java\com\osc\oscashdao\config\datasource\DruidSource.java
-D:\workspace_idea\oscash-root\oscash-dao\src\main\java\com\osc\oscashdao\config\datasource\DruidConfig.java
-D:\workspace_idea\oscash-root\oscash-dao\src\main\java\com\osc\oscashdao\entity\user\User.java

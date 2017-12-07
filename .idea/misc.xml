@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="Kotlin2JsCompilerArguments">
+    <option name="sourceMapPrefix" value="" />
+    <option name="sourceMapEmbedSources" value="inlining" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/oscash-app/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/oscash-dao/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/oscash-pojo/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/oscash-utils/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/oscash-common/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/oscash-service-sms/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/oscash-service-loan/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/oscash-service-user/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/oscash-service-timer/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/oscash-service-zhima/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/oscash-service-approve/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/oscash-service-tongdun/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/lightning-app/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/lightning-data/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/lightning-pojo/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/lightning-utils/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/lightning-common/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/lightning-service-sms/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/lightning-service-loan/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/lightning-service-user/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/lightning-service-timer/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/lightning-service-zhima/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/lightning-service-approve/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/lightning-service-tongdun/target/maven-archiver/pom.properties" />
       </list>
     </option>
   </component>

@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<name>oscash-root</name>
+	<name>lightning-root</name>
 
 	<groupId>com.osc</groupId>
-	<artifactId>oscash-root</artifactId>
+	<artifactId>lightning-root</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	
@@ -18,18 +18,18 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.7</java.version>
 		
-		<!-- <oscash-app.version>1.0.0</oscash-app.version>
-		<oscash-common.version>1.0.0</oscash-common.version>
-		<oscash-dao.version>1.0.0</oscash-dao.version>
-		<oscash-pojo.version>1.0.0</oscash-pojo.version>
-		<oscash-utils.version>1.0.0</oscash-utils.version>
-		<oscash-service-approve.version>1.0.0</oscash-service-approve.version>
-		<oscash-service-loan.version>1.0.0</oscash-service-loan.version>
-		<oscash-service-sms.version>1.0.0</oscash-service-sms.version>
-		<oscash-service-timer.version>1.0.0</oscash-service-timer.version>
-		<oscash-service-tongdun.version>1.0.0</oscash-service-tongdun.version>
-		<oscash-service-user.version>1.0.0</oscash-service-user.version>
-		<oscash-service-zhima.version>1.0.0</oscash-service-zhima.version> -->
+		<!-- <lightning-app.version>1.0.0</lightning-app.version>
+		<lightning-common.version>1.0.0</lightning-common.version>
+		<lightning-data.version>1.0.0</lightning-data.version>
+		<lightning-pojo.version>1.0.0</lightning-pojo.version>
+		<lightning-utils.version>1.0.0</lightning-utils.version>
+		<lightning-service-approve.version>1.0.0</lightning-service-approve.version>
+		<lightning-service-loan.version>1.0.0</lightning-service-loan.version>
+		<lightning-service-sms.version>1.0.0</lightning-service-sms.version>
+		<lightning-service-timer.version>1.0.0</lightning-service-timer.version>
+		<lightning-service-tongdun.version>1.0.0</lightning-service-tongdun.version>
+		<lightning-service-user.version>1.0.0</lightning-service-user.version>
+		<lightning-service-zhima.version>1.0.0</lightning-service-zhima.version> -->
 		
 		<mysql.version>5.1.42</mysql.version>
 		<mybatis.version>1.3.0</mybatis.version>
@@ -37,32 +37,36 @@
 	</properties>
 	
 	<modules>
-		<!-- 基础 – 1秒现金APP篇  说明：提供1秒现金APP接口-->
-		<module>oscash-app</module>
+		<!-- 基础 – 闪电花APP篇  说明：提供闪电花APP接口-->
+		<module>lightning-app</module>
 		
-		<!-- 基础 – 1秒现公共篇    说明：提供公共支持-->
-		<module>oscash-common</module>
-		<!-- 基础 – 1秒现金数据层篇     说明：提供实体层、数据层支持-->
-		<module>oscash-dao</module>
-		<!-- 基础 – 1秒现POJO篇   说明：提供公共PO、VO、BO、DTO支持-->
-		<module>oscash-pojo</module>
-		<!-- 基础 – 1秒现金工具篇   说明：提供公共工具支持-->
-		<module>oscash-utils</module>
+		<!-- 基础 – 闪电花公共篇    说明：提供公共支持-->
+		<module>lightning-common</module>
+		<!-- 基础 – 闪电花数据层篇     说明：提供实体层、数据层支持-->
+		<module>lightning-data</module>
+		<!-- 基础 – 闪电花POJO篇   说明：提供公共PO、VO、BO、DTO支持-->
+		<module>lightning-pojo</module>
+		<!-- 基础 – 闪电花工具篇   说明：提供公共工具支持-->
+		<module>lightning-utils</module>
 
-		<!-- 服务 – 1秒现审核服务篇      说明：提供审核相关服务-->
-		<module>oscash-service-approve</module>
-		<!-- 服务 – 1秒现借款服务篇      说明：提供借款相关服务-->
-		<module>oscash-service-loan</module>
-		<!-- 服务 – 1秒现借款服务篇      说明：提供短信相关服务-->
-		<module>oscash-service-sms</module>
-		<!-- 服务 – 1秒现定时任务服务篇      说明：提供定时任务相关服务-->
-		<module>oscash-service-timer</module>
-		<!-- 服务 – 1秒现金同盾服务篇      说明：提供同盾相关服务-->
-		<module>oscash-service-tongdun</module>
-		<!-- 服务 – 1秒现金用户服务篇      说明：提供用户相关服务-->
-		<module>oscash-service-user</module>
-		<!-- 服务 – 1秒现金芝麻服务篇      说明：提供芝麻信用相关服务-->
-		<module>oscash-service-zhima</module>
+		<!-- 服务 – 闪电花审核服务篇      说明：提供审核相关服务-->
+		<module>lightning-service-approve</module>
+		<!-- 服务 – 闪电花借款服务篇      说明：提供借款相关服务-->
+		<module>lightning-service-loan</module>
+		<!-- 服务 – 闪电花借款服务篇      说明：提供短信相关服务-->
+		<module>lightning-service-sms</module>
+		<!-- 服务 – 闪电花定时任务服务篇      说明：提供定时任务相关服务-->
+		<module>lightning-service-timer</module>
+		<!-- 服务 – 闪电花同盾服务篇      说明：提供同盾相关服务-->
+		<module>lightning-service-tongdun</module>
+		<!-- 服务 – 闪电花用户服务篇      说明：提供用户相关服务-->
+		<module>lightning-service-user</module>
+		<!-- 服务 – 闪电花芝麻服务篇      说明：提供芝麻信用相关服务-->
+		<module>lightning-service-zhima</module>
+		<!-- 服务 – 闪电花队列服务篇      说明：提供消息队列相关服务-->
+		<module>lightning-service-rabbitmq</module>
+		<!-- 服务 – 闪电花缓存服务篇      说明：提供Redis缓存相关服务-->
+		<module>lightning-service-redis</module>
 	</modules>
 	
 	<!--申明依赖关系-->
