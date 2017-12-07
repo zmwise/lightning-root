@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e5848f-4bb6-4f4b-b08f-96a1ba80a99f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/config/timer/ScheduleConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/task/demo/ScheduledTasks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/SenderConf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/sender/HelloSender.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/Sender.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-app/target/classes/com/osc/app/AppApplication.class" afterPath="$PROJECT_DIR$/lightning-app/target/classes/com/osc/app/AppApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-app/target/classes/com/osc/app/web/example/ExampleController.class" afterPath="$PROJECT_DIR$/lightning-app/target/classes/com/osc/app/web/example/ExampleController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-data/target/classes/com/osc/data/config/datasource/DruidConfig.class" afterPath="$PROJECT_DIR$/lightning-data/target/classes/com/osc/data/config/datasource/DruidConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java" afterPath="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/web/example/ExampleController.java" afterPath="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/web/example/ExampleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-data/src/main/java/com/osc/data/config/datasource/DruidConfig.java" afterPath="$PROJECT_DIR$/lightning-data/src/main/java/com/osc/data/config/datasource/DruidConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/resources/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/Receiver.java" afterPath="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/receiver/Receiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lightning-service-rabbitmq/src/test/java/com/osc/lightningservicerabbitmq/LightningServiceRabbitmqApplicationTests.java" afterPath="$PROJECT_DIR$/lightning-service-rabbitmq/src/test/java/com/osc/servicerabbitmq/ServiceRabbitmqApplicationTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/lightning-app/target/" />
     <ignored path="$PROJECT_DIR$/lightning-common/target/" />
@@ -28,7 +15,6 @@
     <ignored path="$PROJECT_DIR$/lightning-service-tongdun/target/" />
     <ignored path="$PROJECT_DIR$/lightning-service-user/target/" />
     <ignored path="$PROJECT_DIR$/lightning-data/target/" />
-    <ignored path="$PROJECT_DIR$/lightning-service-timer/target/" />
     <ignored path="$PROJECT_DIR$/lightning-service-sms/target/" />
     <ignored path="$PROJECT_DIR$/lightning-utils/target/" />
     <ignored path="$PROJECT_DIR$/lightning-pojo/target/" />
@@ -43,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AppApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="264">
+              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -57,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/web/example/ExampleController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
-              <caret line="176" column="17" lean-forward="true" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
+              <caret line="176" column="17" lean-forward="false" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,25 +66,19 @@
       <file leaf-file-name="ScheduledTasks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/task/demo/ScheduledTasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/sender/HelloSender.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="672">
+              <caret line="132" column="20" lean-forward="true" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/SenderConf.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,7 +152,6 @@
         <option value="$PROJECT_DIR$/lightning-data/target/maven-archiver/pom.properties" />
         <option value="$PROJECT_DIR$/lightning-data/src/main/java/com/osc/data/OscashDaoApplication.java" />
         <option value="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/OscashAppApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/lightning-service-redis/pom.xml" />
         <option value="$PROJECT_DIR$/lightning-app/pom.xml" />
         <option value="$PROJECT_DIR$/lightning-service-redis/src/main/java/com/osc/serviceredis/cache/CommonRedisService.java" />
@@ -180,7 +159,6 @@
         <option value="$PROJECT_DIR$/lightning-app/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/lightning-service-redis/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/lightning-service-rabbitmq/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/Sender.java" />
         <option value="$PROJECT_DIR$/lightning-data/src/main/java/com/osc/data/config/datasource/DruidConfig.java" />
         <option value="$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/SenderConf.java" />
@@ -196,6 +174,8 @@
         <option value="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/config/timer/ScheduleConfig.java" />
         <option value="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/task/demo/ScheduledTasks.java" />
         <option value="$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -262,231 +242,6 @@
               <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-              <item name="servicerabbitmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-              <item name="servicerabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-              <item name="servicerabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="receiver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-              <item name="servicerabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="sender" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lightning-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lightning-root" type="462c0819:PsiDirectoryNode" />
-              <item name="lightning-service-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="osc" type="462c0819:PsiDirectoryNode" />
-              <item name="servicerabbitmq" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -513,6 +268,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_idea" />
       <recent name="D:\workspace_idea\lightning-root\lightning-service-rabbitmq\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -709,7 +465,7 @@
       <option name="presentableId" value="Default" />
       <updated>1512613383629</updated>
       <workItem from="1512613388678" duration="2218000" />
-      <workItem from="1512615754365" duration="22867000" />
+      <workItem from="1512615754365" duration="23471000" />
     </task>
     <servers />
   </component>
@@ -725,10 +481,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25085000" />
+    <option name="totallyTimeSpent" value="25689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -739,7 +496,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8594104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8594104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54875284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -909,14 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-666">
-          <caret line="68" column="48" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="68" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lightning-service-redis/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -940,17 +689,6 @@
         <state relative-caret-position="-3679">
           <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="440">
-            <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1090,32 +828,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/sender/HelloSender.java">
+    <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/SenderConf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/config/SenderConf.java">
+    <entry file="file://$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/web/example/ExampleController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
-          <caret line="176" column="17" lean-forward="true" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
+          <caret line="176" column="17" lean-forward="false" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1134,18 +868,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/task/demo/ScheduledTasks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="88">
+          <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightning-service-rabbitmq/src/main/java/com/osc/servicerabbitmq/sender/HelloSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lightning-app/src/main/java/com/osc/app/AppApplication.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="352">
+            <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="672">
+          <caret line="132" column="20" lean-forward="true" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
           <folding />
         </state>
       </provider>

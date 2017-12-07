@@ -18,19 +18,6 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.7</java.version>
 		
-		<!-- <lightning-app.version>1.0.0</lightning-app.version>
-		<lightning-common.version>1.0.0</lightning-common.version>
-		<lightning-data.version>1.0.0</lightning-data.version>
-		<lightning-pojo.version>1.0.0</lightning-pojo.version>
-		<lightning-utils.version>1.0.0</lightning-utils.version>
-		<lightning-service-approve.version>1.0.0</lightning-service-approve.version>
-		<lightning-service-loan.version>1.0.0</lightning-service-loan.version>
-		<lightning-service-sms.version>1.0.0</lightning-service-sms.version>
-		<lightning-service-timer.version>1.0.0</lightning-service-timer.version>
-		<lightning-service-tongdun.version>1.0.0</lightning-service-tongdun.version>
-		<lightning-service-user.version>1.0.0</lightning-service-user.version>
-		<lightning-service-zhima.version>1.0.0</lightning-service-zhima.version> -->
-		
 		<mysql.version>5.1.42</mysql.version>
 		<mybatis.version>1.3.0</mybatis.version>
 		<fastjson.version>1.2.4</fastjson.version>
@@ -55,8 +42,6 @@
 		<module>lightning-service-loan</module>
 		<!-- 服务 – 闪电花借款服务篇      说明：提供短信相关服务-->
 		<module>lightning-service-sms</module>
-		<!-- 服务 – 闪电花定时任务服务篇      说明：提供定时任务相关服务-->
-		<module>lightning-service-timer</module>
 		<!-- 服务 – 闪电花同盾服务篇      说明：提供同盾相关服务-->
 		<module>lightning-service-tongdun</module>
 		<!-- 服务 – 闪电花用户服务篇      说明：提供用户相关服务-->

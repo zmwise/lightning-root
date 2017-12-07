@@ -1,20 +1,20 @@
 # springboot 多模块项目(lightning-root)
 
 ##模块
-1. lightning-app:提供闪电花金APP接口
-2. lightning-common:提供公用组建支持
-3. lightning-data:数据操作层
-4. lightning-pojo:提供公共PO、VO、BO、DTO支持
-5. lightning-service-approve:审核相关服务
-6. lightning-service-loan:借款相关服务
-7. lightning-service-sms:短信相关服务
-8. lightning-service-timer:定时任务相关服务
-9. lightning-service-tongdun:同盾相关服务
-10. lightning-service-user:用户相关服务
-11. lightning-service-zhima:芝麻信用相关服务
-12. lightning-utils:公共工具支持
-13. lightning-service-rabbitmq:提供消息队列相关服务
-14. lightning-service-redis:提供Redis缓存相关服务
+- lightning-app:提供闪电花金APP接口
+- lightning-common:提供公用组建支持
+- lightning-data:数据操作层
+- lightning-pojo:提供公共PO、VO、BO、DTO支持
+- lightning-service-approve:审核相关服务
+- lightning-service-loan:借款相关服务
+- lightning-service-rabbitmq:提供消息队列相关服务
+- lightning-service-redis:提供Redis缓存相关服务
+- lightning-service-sms:短信相关服务
+- lightning-service-tongdun:同盾相关服务
+- lightning-service-user:用户相关服务
+- lightning-service-zhima:芝麻信用相关服务
+- lightning-utils:公共工具支持
+
 
 ## 技术集成
 - 最佳实践的项目结构、配置文件、精简的POM
@@ -27,6 +27,7 @@
 - 系统日志采用log4j2
 - 系统缓存采用Redis
 - 系统消息中间件RabbitMQ
+- 定时器采用Spring自带的Schedule
 
 ## 快速开始
 1. 根据业务在基础代码上进行扩展

@@ -15,7 +15,6 @@
         <module name="lightning-service-rabbitmq" />
         <module name="lightning-service-redis" />
         <module name="lightning-service-sms" />
-        <module name="lightning-service-timer" />
         <module name="lightning-service-tongdun" />
         <module name="lightning-service-user" />
         <module name="lightning-service-zhima" />
@@ -46,7 +45,6 @@
       <module name="lightning-service-rabbitmq" target="1.7" />
       <module name="lightning-service-redis" target="1.7" />
       <module name="lightning-service-sms" target="1.7" />
-      <module name="lightning-service-timer" target="1.7" />
       <module name="lightning-service-tongdun" target="1.7" />
       <module name="lightning-service-user" target="1.7" />
       <module name="lightning-service-zhima" target="1.7" />
