@@ -7,6 +7,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 //@SpringBootApplication(exclude = MybatisAutoConfiguration.class)
 //@EnableAutoConfiguration
@@ -18,7 +19,8 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @MapperScan("com.osc.data.dao")
-@ComponentScan(basePackages={"com.osc.serviceuser","com.osc.serviceredis","com.osc.app"})
+@ComponentScan(basePackages={"com.osc.serviceuser","com.osc.serviceredis","com.osc.servicerabbitmq","com.osc.app"})
+@EnableScheduling //开启定时任务
 //@ServletComponentScan
 public class AppApplication {
 

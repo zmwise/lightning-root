@@ -1,4 +1,4 @@
-package com.osc.lightningservicerabbitmq;
+package com.osc.servicerabbitmq;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,10 +7,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class LightningServiceRabbitmqApplicationTests {
+public class ServiceRabbitmqApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }

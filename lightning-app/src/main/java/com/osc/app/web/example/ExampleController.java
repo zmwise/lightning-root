@@ -9,15 +9,16 @@ import com.osc.common.result.ResultFactory;
 import com.osc.common.utils.dozer.BeanUtil;
 import com.osc.data.entity.user.User;
 import com.osc.pojo.vo.login.LoginVo;
-import com.osc.servicerabbitmq.config.Sender;
+import com.osc.servicerabbitmq.sender.HelloSender;
 import com.osc.serviceredis.cache.CommonRedisService;
 import com.osc.serviceuser.user.IUserService;
 import io.swagger.annotations.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.amqp.core.Queue;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.Date;
 import java.util.List;
 
@@ -41,6 +42,10 @@ public class ExampleController {
     private MemcachedProperties memcached;
     @Autowired
     private CommonRedisService redisService;
+    @Autowired
+    private HelloSender helloSender;
+    @Autowired
+    private AmqpTemplate template;
 
     /**
      * 对象复制示例
@@ -165,7 +170,21 @@ public class ExampleController {
         String say = redisService.getValue("lzm");
         LOGGER.info("redis context>>"+say);
 
-        new Queue("hello");
+        return ResultFactory.successResult();
+    }
+
+    /**
+     * RabbitMQ示例
+     * @return
+     */
+    @GetMapping("/rabbitmq")
+    @ApiOperation(value = "【DEMO模块】RabbitMQ示例")
+    public Result rabbitmq() {
+
+        helloSender.send();
+        template.convertAndSend("queue","hello,rabbit222~");
+
+        LOGGER.info("【RabbitMQ】发送消息 内容>>hello,rabbit~");
 
         return ResultFactory.successResult();
     }

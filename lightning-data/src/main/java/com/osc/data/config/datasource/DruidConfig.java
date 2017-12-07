@@ -1,5 +1,7 @@
 package com.osc.data.config.datasource;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -14,8 +16,11 @@ import com.alibaba.druid.support.http.WebStatFilter;
 @Configuration
 public class DruidConfig {
 
+    private static Logger LOGGER = LoggerFactory.getLogger(DruidConfig.class);
+
     @Bean
     public ServletRegistrationBean servletRegistration() {
+        LOGGER.info("【Druid连接池】配置>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
     	//添加初始化参数：initParams
         ServletRegistrationBean servletRegistration = new ServletRegistrationBean(new StatViewServlet());
         servletRegistration.addUrlMappings("/druid/*");
