@@ -30,7 +30,7 @@ public class Swagger2Config {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.osc.oscashapp.web"))
+                .apis(RequestHandlerSelectors.basePackage("com.osc.app.web"))
                 .paths(PathSelectors.any())
                 .build();
     }

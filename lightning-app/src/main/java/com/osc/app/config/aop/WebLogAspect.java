@@ -58,9 +58,10 @@ public class WebLogAspect {
         long beginTime = System.currentTimeMillis();
 
         MethodSignature signature = (MethodSignature) point.getSignature();
-        Method method = signature.getMethod(); //获取被拦截的方法
-        String methodName = method.getName(); //获取被拦截的方法名
-
+        //获取被拦截的方法
+        Method method = signature.getMethod();
+        //获取被拦截的方法名
+        String methodName = method.getName();
         //获取请求ip
         String ip = request.getRemoteAddr();
 

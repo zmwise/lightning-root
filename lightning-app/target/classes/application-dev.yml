@@ -43,8 +43,8 @@ spring:
 
 #mybatis plus config
 mybatis-plus:
-  type-aliases-package: com.osc.oscashentity
-  mapper-locations: com.osc.oscashdao.xml.**.*.xml
+  type-aliases-package: com.osc.data.entity
+  mapper-locations: com.osc.data.xml.**.*.xml
   configuration:
     cache-enabled: true #配置的缓存的全局开关
     lazy-loading-enabled: true #延时加载的开关

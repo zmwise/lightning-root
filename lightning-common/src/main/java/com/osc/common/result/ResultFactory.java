@@ -13,7 +13,7 @@ import java.util.Map;
  */
 public class ResultFactory {
 
-    private static final Result successResult = new Result(Status.SUCCESS, Status.SUCCESS_MSG);
+    private static final Result SUCCESS_RESULT = new Result(Status.SUCCESS, Status.SUCCESS_MSG);
 
     private ResultFactory() {
     }
@@ -22,7 +22,7 @@ public class ResultFactory {
      * 生成返回成功结果
      */
     public static Result successResult() {
-        return successResult;
+        return SUCCESS_RESULT;
     }
 
     /**

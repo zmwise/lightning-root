@@ -8,17 +8,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/lightning-app/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/lightning-data/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/lightning-pojo/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/lightning-utils/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/lightning-common/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/lightning-service-sms/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/lightning-service-loan/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/lightning-service-user/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/lightning-service-zhima/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/lightning-service-approve/target/maven-archiver/pom.properties" />
-        <option value="$PROJECT_DIR$/lightning-service-tongdun/target/maven-archiver/pom.properties" />
       </list>
     </option>
   </component>

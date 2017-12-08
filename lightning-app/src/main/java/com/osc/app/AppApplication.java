@@ -20,7 +20,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @MapperScan("com.osc.data.dao")
 @ComponentScan(basePackages={"com.osc.serviceuser","com.osc.serviceredis","com.osc.servicerabbitmq","com.osc.app"})
-@EnableScheduling //开启定时任务
+//@EnableScheduling //开启定时任务
 //@ServletComponentScan
 public class AppApplication {
 
